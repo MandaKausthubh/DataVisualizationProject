@@ -4,9 +4,9 @@ Preprocessing and Codes.
 
 ## Code Contribution
 
-Kushal Janamani: Webnometric_cleaner.ipynb \newline
-Manda Kausthubh: DataPreprocessing.ipynb
-Jinesh Pagaria: DV1/Python_codes (folder with Tabluea)
+Kushal Janamani: Webnometric_cleaner.ipynb \br
+Manda Kausthubh: DataPreprocessing.ipynb \br
+Jinesh Pagaria: DV1/Python_codes (folder with Tabluea) \br
 
 ## Requirements:
 
