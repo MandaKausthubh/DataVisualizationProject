@@ -1,0 +1,2011 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='GreenMetric_2022-' inline='true' name='federated.03fjd4l04a20ak1bka7i803myfg1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='GreenMetric_2022-' name='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr'>
+            <connection class='textscan' directory='C:/Users/Jinesh/OneDrive/Desktop/DV1/GreenMetric' filename='GreenMetric_2022-.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='GreenMetric_2022-.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='University' />
+            <column datatype='string' name='Country' />
+            <column datatype='integer' name='Total Score' />
+            <column datatype='integer' name='Setting &amp; Infrastructure' />
+            <column datatype='integer' name='Energy &amp; Climate Change' />
+            <column datatype='integer' name='Waste' />
+            <column datatype='integer' name='Water' />
+            <column datatype='integer' name='Transportation' />
+            <column datatype='integer' name='Education &amp; Research' />
+            <column datatype='real' name='Rank' />
+            <column datatype='integer' name='Year' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2022-.csv' table='[GreenMetric_2022-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='real' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2021-.csv' table='[GreenMetric_2021-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='real' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2020-.csv' table='[GreenMetric_2020-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2019-.csv' table='[GreenMetric_2019-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2018-.csv' table='[GreenMetric_2018-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2017-.csv' table='[GreenMetric_2017-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2016-.csv' table='[GreenMetric_2016-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='GreenMetric_2022-.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='University' />
+            <column datatype='string' name='Country' />
+            <column datatype='integer' name='Total Score' />
+            <column datatype='integer' name='Setting &amp; Infrastructure' />
+            <column datatype='integer' name='Energy &amp; Climate Change' />
+            <column datatype='integer' name='Waste' />
+            <column datatype='integer' name='Water' />
+            <column datatype='integer' name='Transportation' />
+            <column datatype='integer' name='Education &amp; Research' />
+            <column datatype='real' name='Rank' />
+            <column datatype='integer' name='Year' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2022-.csv' table='[GreenMetric_2022-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='real' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2021-.csv' table='[GreenMetric_2021-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='real' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2020-.csv' table='[GreenMetric_2020-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2019-.csv' table='[GreenMetric_2019-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2018-.csv' table='[GreenMetric_2018-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2017-.csv' table='[GreenMetric_2017-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2016-.csv' table='[GreenMetric_2016-#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='University' ordinal='0' />
+              <column datatype='string' name='Country' ordinal='1' />
+              <column datatype='integer' name='Total Score' ordinal='2' />
+              <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+              <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+              <column datatype='integer' name='Waste' ordinal='5' />
+              <column datatype='integer' name='Water' ordinal='6' />
+              <column datatype='integer' name='Transportation' ordinal='7' />
+              <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+              <column datatype='integer' name='Rank' ordinal='9' />
+              <column datatype='integer' name='Year' ordinal='10' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>University</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[University]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>University</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Score]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Total Score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Setting &amp; Infrastructure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Setting &amp; Infrastructure]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Setting &amp; Infrastructure</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Energy &amp; Climate Change</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Energy &amp; Climate Change]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Energy &amp; Climate Change</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Waste</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Waste]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Waste</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Water</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Water]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Water</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transportation</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Transportation]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Transportation</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education &amp; Research</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Education &amp; Research]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Education &amp; Research</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[GreenMetric_2022-.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Rank1' datatype='real' name='[Rank]' role='measure' type='quantitative' />
+      <column caption='Total Score1' datatype='integer' name='[Total Score]' role='measure' type='quantitative' />
+      <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='GreenMetric_2022-.csv' datatype='table' name='[__tableau_internal_object_id__].[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]' role='measure' type='quantitative' />
+      <column-instance column='[Country]' derivation='Attribute' name='[attr:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Jinesh/AppData/Local/Temp/TableauTemp/#TableauTemp_1uc0e4p1dhqygr17y28zi1gwbkko.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/13/2024 09:37:56 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>University</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[University]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>University</remote-alias>
+              <ordinal>0</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1594</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>1</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Score</remote-alias>
+              <ordinal>2</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1016</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Setting &amp; Infrastructure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Setting &amp; Infrastructure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Setting &amp; Infrastructure</remote-alias>
+              <ordinal>3</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>555</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Energy &amp; Climate Change</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Energy &amp; Climate Change]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Energy &amp; Climate Change</remote-alias>
+              <ordinal>4</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>536</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Waste</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Waste]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Waste</remote-alias>
+              <ordinal>5</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Water</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Water]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Water</remote-alias>
+              <ordinal>6</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>193</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Transportation</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Transportation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Transportation</remote-alias>
+              <ordinal>7</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>346</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education &amp; Research</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Education &amp; Research]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education &amp; Research</remote-alias>
+              <ordinal>8</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>513</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rank</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rank</remote-alias>
+              <ordinal>9</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1180</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>10</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>11</ordinal>
+              <family>GreenMetric_2022-.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[attr:Country:nk]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>%many-values%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Elsavador&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;New Zeland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Marocco&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;UK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Uni Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Netherland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Curacao&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Republic of Cyprus&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chinese Taipei&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Finlandia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Syria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Republic of Macedonia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Czech&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Norwegia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Trinidad Tobago&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='GreenMetric_2022-.csv' id='GreenMetric_2022-.csv_FA316902491B42D3AEE9C689CF114EAC'>
+            <properties context=''>
+              <relation all='true' name='GreenMetric_2022-.csv+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='University' />
+                  <column datatype='string' name='Country' />
+                  <column datatype='integer' name='Total Score' />
+                  <column datatype='integer' name='Setting &amp; Infrastructure' />
+                  <column datatype='integer' name='Energy &amp; Climate Change' />
+                  <column datatype='integer' name='Waste' />
+                  <column datatype='integer' name='Water' />
+                  <column datatype='integer' name='Transportation' />
+                  <column datatype='integer' name='Education &amp; Research' />
+                  <column datatype='real' name='Rank' />
+                  <column datatype='integer' name='Year' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2022-.csv' table='[GreenMetric_2022-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='real' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2021-.csv' table='[GreenMetric_2021-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='real' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2020-.csv' table='[GreenMetric_2020-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='integer' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2019-.csv' table='[GreenMetric_2019-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='integer' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2018-.csv' table='[GreenMetric_2018-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='integer' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2017-.csv' table='[GreenMetric_2017-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='integer' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.1h0x6lk0e0y5hh19l9ftq0ufkggr' name='GreenMetric_2016-.csv' table='[GreenMetric_2016-#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='University' ordinal='0' />
+                    <column datatype='string' name='Country' ordinal='1' />
+                    <column datatype='integer' name='Total Score' ordinal='2' />
+                    <column datatype='integer' name='Setting &amp; Infrastructure' ordinal='3' />
+                    <column datatype='integer' name='Energy &amp; Climate Change' ordinal='4' />
+                    <column datatype='integer' name='Waste' ordinal='5' />
+                    <column datatype='integer' name='Water' ordinal='6' />
+                    <column datatype='integer' name='Transportation' ordinal='7' />
+                    <column datatype='integer' name='Education &amp; Research' ordinal='8' />
+                    <column datatype='integer' name='Rank' ordinal='9' />
+                    <column datatype='integer' name='Year' ordinal='10' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Least_performing_univ_in_G20_dev_countries'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GreenMetric_2022-' name='federated.03fjd4l04a20ak1bka7i803myfg1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03fjd4l04a20ak1bka7i803myfg1'>
+            <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Rank1' datatype='real' name='[Rank]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Waste]' role='measure' type='quantitative' />
+            <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Rank]' derivation='Avg' name='[avg:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Waste]' derivation='Avg' name='[avg:Waste:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Argentina&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Indonesia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Mexico&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Saudi Arabia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Turkey&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Rank:qk]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <text column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Waste:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <text column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Rank:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <text column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Waste:qk] + [federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Rank:qk])</rows>
+        <cols>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{91E54AEB-5E59-4567-91DA-C11EE891D9C9}' />
+    </worksheet>
+    <worksheet name='Scope_of_improvement_for_African_countries_in_Transportation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GreenMetric_2022-' name='federated.03fjd4l04a20ak1bka7i803myfg1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03fjd4l04a20ak1bka7i803myfg1'>
+            <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Transportation]' role='measure' type='quantitative' />
+            <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Transportation]' derivation='Avg' name='[avg:Transportation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Denmark&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;El Salvador&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Finland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Ghana&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Morocco&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Namibia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Nigeria&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;South Africa&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;UK&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#fffae9' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <text column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03fjd4l04a20ak1bka7i803myfg1].[avg:Transportation:qk]</rows>
+        <cols>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{250A474C-C714-48AE-BA9C-5BC214628792}' />
+    </worksheet>
+    <worksheet name='Scope_of_improvement_for_SAARC_countries_in_Waste_Managment'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='GreenMetric_2022-' name='federated.03fjd4l04a20ak1bka7i803myfg1' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.03fjd4l04a20ak1bka7i803myfg1'>
+            <column caption='Country1' datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Rank1' datatype='real' name='[Rank]' role='measure' type='quantitative' />
+            <column caption='Total Score1' datatype='integer' name='[Total Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[University]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Waste]' role='measure' type='quantitative' />
+            <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[University]' derivation='Attribute' name='[attr:University:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rank]' derivation='None' name='[none:Rank:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Score]' derivation='None' name='[none:Total Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Waste]' derivation='None' name='[none:Waste:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Total Score]' derivation='Sum' name='[sum:Total Score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Bangladesh&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Denmark&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Finland&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Germany&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;India&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Italy&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Japan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Latvia&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Netherlands&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;Pakistan&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;UK&quot;' />
+              <groupfilter function='member' level='[none:Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Rank:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>500.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:ok]'>
+            <groupfilter function='member' level='[none:Year:ok]' member='2022' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:ok]</column>
+            <column>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</column>
+            <column>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Rank:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <size column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Total Score:qk]' />
+              <text column='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' />
+              <tooltip column='[federated.03fjd4l04a20ak1bka7i803myfg1].[attr:University:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='0.60370165109634399' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Waste:qk]</rows>
+        <cols>[federated.03fjd4l04a20ak1bka7i803myfg1].[sum:Total Score:qk]</cols>
+      </table>
+      <simple-id uuid='{1DE5E946-9D38-40E2-8E76-6593925E009A}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Least_performing_univ_in_G20_dev_countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{67770D47-839A-4AA3-862C-D1F5B154FDD8}' />
+    </window>
+    <window class='worksheet' name='Scope_of_improvement_for_SAARC_countries_in_Waste_Managment'>
+      <cards>
+        <edge name='left'>
+          <strip size='224'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Rank:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Total Score:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[attr:Country:nk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Rank:qk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:University:nk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Water:qk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{66B295D8-3B87-40B9-B2DA-AC6F77E44EA0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Scope_of_improvement_for_African_countries_in_Transportation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Country:nk]</field>
+            <field>[federated.03fjd4l04a20ak1bka7i803myfg1].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CE8154FA-F6D7-44C2-8690-3819F61BB8FF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Least_performing_univ_in_G20_dev_countries' width='192'>
+      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
+      D4S6AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Scope_of_improvement_for_African_countries_in_Transportation' width='192'>
+      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
+      Z2Su7F0m/z8S1QUUrkb/cAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Scope_of_improvement_for_SAARC_countries_in_Waste_Managment' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

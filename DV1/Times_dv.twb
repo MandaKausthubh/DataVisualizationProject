@@ -1,0 +1,2554 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.IndividualControlFormatting.true...IndividualControlFormatting />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Times_2023' inline='true' name='federated.1tbhvw20pzk06b10b8zbb0nwj8th' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Times_2023' name='textscan.0zirzbm133k86q13r0oq302zzx8j'>
+            <connection class='textscan' directory='C:/Users/Jinesh/OneDrive/Desktop/DV1/Times' filename='Times_2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='Times_2023.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='rank' />
+            <column datatype='string' name='name' />
+            <column datatype='string' name='scores_overall' />
+            <column datatype='integer' name='scores_overall_rank' />
+            <column datatype='real' name='scores_teaching' />
+            <column datatype='integer' name='scores_teaching_rank' />
+            <column datatype='real' name='scores_research' />
+            <column datatype='integer' name='scores_research_rank' />
+            <column datatype='real' name='scores_citations' />
+            <column datatype='integer' name='scores_citations_rank' />
+            <column datatype='real' name='scores_industry_income' />
+            <column datatype='integer' name='scores_industry_income_rank' />
+            <column datatype='real' name='scores_international_outlook' />
+            <column datatype='integer' name='scores_international_outlook_rank' />
+            <column datatype='string' name='location' />
+            <column datatype='integer' name='stats_number_students' />
+            <column datatype='real' name='stats_student_staff_ratio' />
+            <column datatype='real' name='stats_pc_intl_students' />
+            <column datatype='string' name='subjects_offered' />
+            <column datatype='integer' name='year' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2023.csv' table='[Times_2023#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2022.csv' table='[Times_2022#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2021.csv' table='[Times_2021#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2020.csv' table='[Times_2020#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2019.csv' table='[Times_2019#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2018.csv' table='[Times_2018#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2017.csv' table='[Times_2017#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2016.csv' table='[Times_2016#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='real' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_citations' ordinal='4' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='5' />
+              <column datatype='real' name='scores_industry_income' ordinal='6' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='7' />
+              <column datatype='real' name='scores_international_outlook' ordinal='8' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='9' />
+              <column datatype='real' name='scores_research' ordinal='10' />
+              <column datatype='integer' name='scores_research_rank' ordinal='11' />
+              <column datatype='real' name='scores_teaching' ordinal='12' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='Times_2023.csv+' type='union'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='rank' />
+            <column datatype='string' name='name' />
+            <column datatype='string' name='scores_overall' />
+            <column datatype='integer' name='scores_overall_rank' />
+            <column datatype='real' name='scores_teaching' />
+            <column datatype='integer' name='scores_teaching_rank' />
+            <column datatype='real' name='scores_research' />
+            <column datatype='integer' name='scores_research_rank' />
+            <column datatype='real' name='scores_citations' />
+            <column datatype='integer' name='scores_citations_rank' />
+            <column datatype='real' name='scores_industry_income' />
+            <column datatype='integer' name='scores_industry_income_rank' />
+            <column datatype='real' name='scores_international_outlook' />
+            <column datatype='integer' name='scores_international_outlook_rank' />
+            <column datatype='string' name='location' />
+            <column datatype='integer' name='stats_number_students' />
+            <column datatype='real' name='stats_student_staff_ratio' />
+            <column datatype='real' name='stats_pc_intl_students' />
+            <column datatype='string' name='subjects_offered' />
+            <column datatype='integer' name='year' />
+            <column datatype='string' name='Table Name' />
+          </columns>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2023.csv' table='[Times_2023#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2022.csv' table='[Times_2022#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2021.csv' table='[Times_2021#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2020.csv' table='[Times_2020#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2019.csv' table='[Times_2019#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2018.csv' table='[Times_2018#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2017.csv' table='[Times_2017#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='string' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_teaching' ordinal='4' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+              <column datatype='real' name='scores_research' ordinal='6' />
+              <column datatype='integer' name='scores_research_rank' ordinal='7' />
+              <column datatype='real' name='scores_citations' ordinal='8' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+              <column datatype='real' name='scores_industry_income' ordinal='10' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+              <column datatype='real' name='scores_international_outlook' ordinal='12' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2016.csv' table='[Times_2016#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='rank' ordinal='0' />
+              <column datatype='string' name='name' ordinal='1' />
+              <column datatype='real' name='scores_overall' ordinal='2' />
+              <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+              <column datatype='real' name='scores_citations' ordinal='4' />
+              <column datatype='integer' name='scores_citations_rank' ordinal='5' />
+              <column datatype='real' name='scores_industry_income' ordinal='6' />
+              <column datatype='integer' name='scores_industry_income_rank' ordinal='7' />
+              <column datatype='real' name='scores_international_outlook' ordinal='8' />
+              <column datatype='integer' name='scores_international_outlook_rank' ordinal='9' />
+              <column datatype='real' name='scores_research' ordinal='10' />
+              <column datatype='integer' name='scores_research_rank' ordinal='11' />
+              <column datatype='real' name='scores_teaching' ordinal='12' />
+              <column datatype='integer' name='scores_teaching_rank' ordinal='13' />
+              <column datatype='string' name='location' ordinal='14' />
+              <column datatype='integer' name='stats_number_students' ordinal='15' />
+              <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+              <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+              <column datatype='string' name='subjects_offered' ordinal='18' />
+              <column datatype='integer' name='year' ordinal='19' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_overall</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scores_overall]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_overall</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_overall_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_overall_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_overall_rank</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_teaching</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scores_teaching]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_teaching</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_teaching_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_teaching_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_teaching_rank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_research</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scores_research]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_research</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_research_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_research_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_research_rank</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_citations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scores_citations]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_citations</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_citations_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_citations_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_citations_rank</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_industry_income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scores_industry_income]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_industry_income</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_industry_income_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_industry_income_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_industry_income_rank</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_international_outlook</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scores_international_outlook]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_international_outlook</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scores_international_outlook_rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[scores_international_outlook_rank]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>scores_international_outlook_rank</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stats_number_students</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stats_number_students]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>stats_number_students</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stats_student_staff_ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stats_student_staff_ratio]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>stats_student_staff_ratio</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stats_pc_intl_students</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stats_pc_intl_students]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>stats_pc_intl_students</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subjects_offered</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subjects_offered]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>subjects_offered</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[Times_2023.csv+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ststs Number Intl Students' datatype='real' name='[Calculation_814307169058574336]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[stats_pc_intl_students] * [stats_number_students] / 100' />
+      </column>
+      <column caption='Staff_to_student_ratio' datatype='real' name='[Calculation_814307169060503553]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1/[stats_student_staff_ratio]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Times_2023.csv' datatype='table' name='[__tableau_internal_object_id__].[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]' role='measure' type='quantitative' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' semantic-role='' type='nominal' />
+      <column caption='Rank' datatype='integer' datatype-customized='true' name='[rank]' role='dimension' type='ordinal' />
+      <column caption='Scores Citations' datatype='real' name='[scores_citations]' role='measure' type='quantitative' />
+      <column caption='Scores Citations Rank' datatype='integer' name='[scores_citations_rank]' role='measure' type='quantitative' />
+      <column caption='Scores Industry Income' datatype='real' name='[scores_industry_income]' role='measure' type='quantitative' />
+      <column caption='Scores Industry Income Rank' datatype='integer' name='[scores_industry_income_rank]' role='measure' type='quantitative' />
+      <column caption='Scores International Outlook' datatype='real' name='[scores_international_outlook]' role='measure' type='quantitative' />
+      <column caption='Scores International Outlook Rank' datatype='integer' name='[scores_international_outlook_rank]' role='measure' type='quantitative' />
+      <column caption='Scores Overall' datatype='real' datatype-customized='true' name='[scores_overall]' role='dimension' type='ordinal' />
+      <column caption='Scores Overall Rank' datatype='integer' name='[scores_overall_rank]' role='measure' type='quantitative' />
+      <column caption='Scores Research' datatype='real' name='[scores_research]' role='measure' type='quantitative' />
+      <column caption='Scores Research Rank' datatype='integer' name='[scores_research_rank]' role='measure' type='quantitative' />
+      <column caption='Scores Teaching' datatype='real' name='[scores_teaching]' role='measure' type='quantitative' />
+      <column caption='Scores Teaching Rank' datatype='integer' name='[scores_teaching_rank]' role='measure' type='quantitative' />
+      <column caption='Stats Number Students' datatype='integer' name='[stats_number_students]' role='measure' type='quantitative' />
+      <column caption='Stats Pc Intl Students' datatype='real' name='[stats_pc_intl_students]' role='measure' type='quantitative' />
+      <column caption='Stats Student Staff Ratio' datatype='real' name='[stats_student_staff_ratio]' role='measure' type='quantitative' />
+      <column caption='Subjects Offered' datatype='string' name='[subjects_offered]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+      <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Jinesh/AppData/Local/Temp/TableauTemp/#TableauTemp_038uj2h0u2w2qe19tn5tq12wxmdp.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='09/14/2024 12:34:19 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>351</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2462</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_overall</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[scores_overall]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_overall</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>368</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_overall_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_overall_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_overall_rank</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2653</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_teaching</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scores_teaching]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_teaching</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>726</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_teaching_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_teaching_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_teaching_rank</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2208</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_research</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scores_research]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_research</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>814</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_research_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_research_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_research_rank</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2043</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_citations</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scores_citations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_citations</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1462</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_citations_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_citations_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_citations_rank</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2159</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_industry_income</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scores_industry_income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_industry_income</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>729</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_industry_income_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_industry_income_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_industry_income_rank</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2062</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_international_outlook</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[scores_international_outlook]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_international_outlook</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1311</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>scores_international_outlook_rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[scores_international_outlook_rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>scores_international_outlook_rank</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2029</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>location</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>133</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stats_number_students</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[stats_number_students]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stats_number_students</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5471</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stats_student_staff_ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[stats_student_staff_ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stats_student_staff_ratio</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>664</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stats_pc_intl_students</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[stats_pc_intl_students]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stats_pc_intl_students</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>69</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>subjects_offered</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[subjects_offered]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>subjects_offered</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2392</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>year</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Table Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Table Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Table Name</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Times_2023.csv+</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[none:year:ok]' type='shape'>
+            <map to='circle'>
+              <bucket>2023</bucket>
+            </map>
+            <map to='square'>
+              <bucket>2022</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:location:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iran&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Northern Cyprus&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kosovo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Macao&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Palestine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Russian Federation&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='%null%' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Times_2023.csv' id='Times_2023.csv_678C7EA716A04F08BE82F0126EEC3756'>
+            <properties context=''>
+              <relation all='true' name='Times_2023.csv+' type='union'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='rank' />
+                  <column datatype='string' name='name' />
+                  <column datatype='string' name='scores_overall' />
+                  <column datatype='integer' name='scores_overall_rank' />
+                  <column datatype='real' name='scores_teaching' />
+                  <column datatype='integer' name='scores_teaching_rank' />
+                  <column datatype='real' name='scores_research' />
+                  <column datatype='integer' name='scores_research_rank' />
+                  <column datatype='real' name='scores_citations' />
+                  <column datatype='integer' name='scores_citations_rank' />
+                  <column datatype='real' name='scores_industry_income' />
+                  <column datatype='integer' name='scores_industry_income_rank' />
+                  <column datatype='real' name='scores_international_outlook' />
+                  <column datatype='integer' name='scores_international_outlook_rank' />
+                  <column datatype='string' name='location' />
+                  <column datatype='integer' name='stats_number_students' />
+                  <column datatype='real' name='stats_student_staff_ratio' />
+                  <column datatype='real' name='stats_pc_intl_students' />
+                  <column datatype='string' name='subjects_offered' />
+                  <column datatype='integer' name='year' />
+                  <column datatype='string' name='Table Name' />
+                </columns>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2023.csv' table='[Times_2023#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2022.csv' table='[Times_2022#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2021.csv' table='[Times_2021#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2020.csv' table='[Times_2020#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2019.csv' table='[Times_2019#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2018.csv' table='[Times_2018#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2017.csv' table='[Times_2017#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='string' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_teaching' ordinal='4' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='5' />
+                    <column datatype='real' name='scores_research' ordinal='6' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='7' />
+                    <column datatype='real' name='scores_citations' ordinal='8' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='9' />
+                    <column datatype='real' name='scores_industry_income' ordinal='10' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='11' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='12' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+                <relation connection='textscan.0zirzbm133k86q13r0oq302zzx8j' name='Times_2016.csv' table='[Times_2016#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                    <column datatype='string' name='rank' ordinal='0' />
+                    <column datatype='string' name='name' ordinal='1' />
+                    <column datatype='real' name='scores_overall' ordinal='2' />
+                    <column datatype='integer' name='scores_overall_rank' ordinal='3' />
+                    <column datatype='real' name='scores_citations' ordinal='4' />
+                    <column datatype='integer' name='scores_citations_rank' ordinal='5' />
+                    <column datatype='real' name='scores_industry_income' ordinal='6' />
+                    <column datatype='integer' name='scores_industry_income_rank' ordinal='7' />
+                    <column datatype='real' name='scores_international_outlook' ordinal='8' />
+                    <column datatype='integer' name='scores_international_outlook_rank' ordinal='9' />
+                    <column datatype='real' name='scores_research' ordinal='10' />
+                    <column datatype='integer' name='scores_research_rank' ordinal='11' />
+                    <column datatype='real' name='scores_teaching' ordinal='12' />
+                    <column datatype='integer' name='scores_teaching_rank' ordinal='13' />
+                    <column datatype='string' name='location' ordinal='14' />
+                    <column datatype='integer' name='stats_number_students' ordinal='15' />
+                    <column datatype='real' name='stats_student_staff_ratio' ordinal='16' />
+                    <column datatype='real' name='stats_pc_intl_students' ordinal='17' />
+                    <column datatype='string' name='subjects_offered' ordinal='18' />
+                    <column datatype='integer' name='year' ordinal='19' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Footfall_of_International_students'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Times_2023' name='federated.1tbhvw20pzk06b10b8zbb0nwj8th' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1tbhvw20pzk06b10b8zbb0nwj8th'>
+            <column caption='Ststs Number Intl Students' datatype='real' name='[Calculation_814307169058574336]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[stats_pc_intl_students] * [stats_number_students] / 100' />
+            </column>
+            <column-instance column='[scores_overall]' derivation='Avg' name='[avg:scores_overall:qk]' pivot='key' type='quantitative' />
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Scores Overall' datatype='real' datatype-customized='true' name='[scores_overall]' role='dimension' type='ordinal' />
+            <column caption='Stats Number Students' datatype='integer' name='[stats_number_students]' role='measure' type='quantitative' />
+            <column caption='Stats Pc Intl Students' datatype='real' name='[stats_pc_intl_students]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_814307169058574336]' derivation='Sum' name='[sum:Calculation_814307169058574336:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]'>
+            <groupfilter function='member' level='[none:year:ok]' member='2023' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[Longitude (generated)]' field-type='quantitative' max='28163832.906763449' min='-15525893.673092954' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[Latitude (generated)]' field-type='quantitative' max='13181136.915915215' min='-11680343.756090319' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[avg:scores_overall:qk]' palette='green_gold_10_0' type='interpolated' />
+          </style-rule>
+          <_.fcp.IndividualControlFormatting.true...style-rule element='legend'>
+            <_.fcp.IndividualControlFormatting.true...format attr='border-width' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[sum:Calculation_814307169058574336:qk]' id='legend-size' value='0' />
+            <_.fcp.IndividualControlFormatting.true...format attr='border-style' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[sum:Calculation_814307169058574336:qk]' id='legend-size' value='none' />
+          </_.fcp.IndividualControlFormatting.true...style-rule>
+          <_.fcp.IndividualControlFormatting.true...style-rule element='legend-title'>
+            <_.fcp.IndividualControlFormatting.true...format attr='font-size' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[sum:Calculation_814307169058574336:qk]' id='legend-size' value='15' />
+          </_.fcp.IndividualControlFormatting.true...style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[avg:scores_overall:qk]' />
+              <size column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[sum:Calculation_814307169058574336:qk]' />
+              <text column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:location:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.022099494934082' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#a006ff' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[Latitude (generated)]</rows>
+        <cols>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9C807E1D-BCE0-4BC2-86DB-8E3EA9333C48}' />
+    </worksheet>
+    <worksheet name='Research_vs_teaching'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Times_2023' name='federated.1tbhvw20pzk06b10b8zbb0nwj8th' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tbhvw20pzk06b10b8zbb0nwj8th'>
+            <column caption='Location' datatype='string' name='[location]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' semantic-role='' type='nominal' />
+            <column-instance column='[location]' derivation='None' name='[none:location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[scores_overall]' derivation='None' name='[none:scores_overall:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[scores_research]' derivation='None' name='[none:scores_research:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[scores_teaching]' derivation='None' name='[none:scores_teaching:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Scores Overall' datatype='real' datatype-customized='true' name='[scores_overall]' role='dimension' type='ordinal' />
+            <column caption='Scores Research' datatype='real' name='[scores_research]' role='measure' type='quantitative' />
+            <column caption='Scores Teaching' datatype='real' name='[scores_teaching]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]'>
+            <groupfilter function='member' level='[none:year:ok]' member='2023' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_teaching:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_teaching:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_teaching:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:location:nk]' />
+              <size column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_overall:ok]' />
+              <text column='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_research:qk]</rows>
+        <cols>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_teaching:qk]</cols>
+      </table>
+      <simple-id uuid='{50185F6C-5432-49CB-9E73-7AED3680FFF2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Footfall_of_International_students'>
+      <cards>
+        <edge name='left'>
+          <strip size='233'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[sum:Calculation_814307169058574336:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[avg:scores_overall:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[avg:scores_overall:qk]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[avg:scores_overall_rank:qk]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:location:nk]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:rank:ok]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{447609E9-96AF-4092-9010-7AC4190E69C3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Research_vs_teaching'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_overall:ok]' type='size' />
+            <card pane-specification-id='0' param='[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:location:nk]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:name:nk]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:scores_overall:ok]</field>
+            <field>[federated.1tbhvw20pzk06b10b8zbb0nwj8th].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B70CF104-E1B5-4193-9FD2-59A731B5674B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Footfall_of_International_students' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Research_vs_teaching' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

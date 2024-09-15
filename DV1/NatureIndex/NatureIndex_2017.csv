@@ -1,0 +1,501 @@
+World Rank,Institution,Country,Share,Count,Year,Publication share
+1,Harvard University,United States of America (USA),907.53,2305,2017,1.7021119480135873
+2,Stanford University,United States of America (USA),615.68,1501,2017,1.1084034854526656
+3,Massachusetts Institute of Technology (MIT),United States of America (USA),538.25,1712,2017,1.2642150347068382
+4,The University of Tokyo (UTokyo),Japan,472.05,1183,2017,0.8735784965293161
+5,University of Cambridge,United Kingdom (UK),420.8,1268,2017,0.9363461822478216
+6,"University of California, Berkeley (UC Berkeley)",United States of America (USA),409.64,1205,2017,0.8898242504799881
+7,University of Oxford,United Kingdom (UK),408.03,1216,2017,0.8979471274553242
+8,Peking University (PKU),China,394.87,1325,2017,0.9784374538472899
+9,Swiss Federal Institute of Technology Zurich (ETH Zurich),Switzerland,385.07,959,2017,0.7081671835770197
+10,Tsinghua University,China,354.88,1109,2017,0.8189336877861467
+11,University of Michigan (U-M),United States of America (USA),336.06,886,2017,0.6542608181952445
+12,"University of California, San Diego (UC San Diego)",United States of America (USA),330.96,920,2017,0.6793678924826465
+13,Nanjing University (NJU),China,328.84,796,2017,0.5878009156697681
+14,"University of California, Los Angeles (UCLA)",United States of America (USA),324.04,943,2017,0.6963520897947127
+15,Columbia University in the City of New York (CU),United States of America (USA),311.83,933,2017,0.6889676561807709
+16,California Institute of Technology (Caltech),United States of America (USA),310.22,950,2017,0.7015211933244719
+17,University of Science and Technology of China (USTC),China,308.65,822,2017,0.6070004430660169
+18,Kyoto University,Japan,307.24,697,2017,0.5146950228917442
+19,Yale University,United States of America (USA),302.83,823,2017,0.607738886427411
+20,Northwestern University (NU),United States of America (USA),296.63,778,2017,0.5745089351646728
+21,University of Toronto (U of T),Canada,285.29,751,2017,0.55457096440703
+22,University of Pennsylvania (Penn),United States of America (USA),279.61,719,2017,0.5309407768424161
+23,University of Washington (UW),United States of America (USA),271.8,864,2017,0.6380150642445724
+24,The University of Texas at Austin (UT Austin),United States of America (USA),268.6,650,2017,0.4799881849062177
+25,University of Chinese Academy of Sciences (UCAS),China,261.1,1406,2017,1.0382513661202186
+26,Cornell University,United States of America (USA),260.96,804,2017,0.5937084625609216
+27,University of Wisconsin-Madison (UW-Madison),United States of America (USA),257.24,693,2017,0.5117412494461675
+28,Princeton University,United States of America (USA),250.98,672,2017,0.4962339388568897
+29,Johns Hopkins University (JHU),United States of America (USA),243.7,812,2017,0.599616009452075
+30,Zhejiang University (ZJU),China,243.65,592,2017,0.4371584699453552
+31,Nanyang Technological University (NTU),Singapore,242.08,572,2017,0.4223896027174716
+32,National University of Singapore (NUS),Singapore,230.46,591,2017,0.436420026583961
+33,University of Illinois at Urbana-Champaign (UIUC),United States of America (USA),224.88,603,2017,0.4452813469206912
+34,The University of Chicago (UChicago),United States of America (USA),224.81,705,2017,0.5206025697828977
+35,Imperial College London (ICL),United Kingdom (UK),209.48,841,2017,0.6210308669325063
+36,Washington University in St. Louis (WUSTL),United States of America (USA),209.17,456,2017,0.3367301727957466
+37,Swiss Federal Institute of Technology Lausanne (EPFL),Switzerland,208.06,577,2017,0.42608181952444246
+38,Fudan University,China,206.21,494,2017,0.3647910205287255
+39,University of Minnesota (UMN),United States of America (USA),203.01,587,2017,0.43346625313838427
+40,"University of California, Santa Barbara (UCSB)",United States of America (USA),200.74,572,2017,0.4223896027174716
+41,The Pennsylvania State University (Penn State),United States of America (USA),200.17,518,2017,0.3825136612021858
+42,The University of North Carolina at Chapel Hill (UNC),United States of America (USA),197.8,480,2017,0.35445281346920693
+43,UCL,United Kingdom (UK),190.16,748,2017,0.5523556343228474
+44,Osaka University,Japan,188.74,493,2017,0.3640525771673313
+45,"University of Maryland, College Park (UMCP)",United States of America (USA),187.1,684,2017,0.5050952591936199
+46,"University of California, San Francisco (UCSF)",United States of America (USA),185.64,540,2017,0.39875941515285773
+47,Duke University,United States of America (USA),182.07,589,2017,0.4349431398611726
+48,Ludwig Maximilians University of Munich (LMU),Germany,181.21,622,2017,0.4593117707871806
+49,University of Colorado Boulder (CU-Boulder),United States of America (USA),177.86,654,2017,0.4829419583517944
+50,Weizmann Institute of Science (WIS),Israel,175.48,424,2017,0.31309998523113275
+51,Texas A&M University (TAMU),United States of America (USA),171.62,497,2017,0.367006350612908
+52,New York University (NYU),United States of America (USA),170.97,519,2017,0.38325210456357994
+53,Shanghai Jiao Tong University (SJTU),China,170.93,555,2017,0.4098360655737705
+54,"University of California, Irvine (UCI)",United States of America (USA),166.14,468,2017,0.3455914931324767
+55,The University of Manchester (UoM),United Kingdom (UK),164.94,551,2017,0.40688229212819377
+56,Seoul National University (SNU),South Korea,164.43,462,2017,0.34116083296411165
+57,Soochow University,China,161.36,307,2017,0.2267021119480136
+58,Wuhan University (WHU),China,161.32,358,2017,0.2643627233791168
+59,Nankai University (NKU),China,156.53,438,2017,0.3234381922906513
+60,The University of Edinburgh,United Kingdom (UK),156.18,629,2017,0.46448087431693985
+61,University of Bristol (UoB),United Kingdom (UK),154.01,483,2017,0.35666814355338944
+62,The University of Texas Southwestern Medical Center (UT Southwestern Medical Center),United States of America (USA),153.65,297,2017,0.21931767833407176
+63,Korea Advanced Institute of Science and Technology (KAIST),South Korea,152.95,317,2017,0.2340865455619554
+64,Sun Yat-sen University (SYSU),China,152.26,392,2017,0.289469797666519
+65,"University of California, Davis (UC Davis)",United States of America (USA),151.15,517,2017,0.3817752178407916
+66,University of Pittsburgh (Pitt),United States of America (USA),149.82,469,2017,0.3463299364938709
+67,Purdue University,United States of America (USA),148.92,408,2017,0.30128489144882586
+68,Georgia Institute of Technology (Georgia Tech),United States of America (USA),148.58,426,2017,0.31457687195392114
+69,McGill University,Canada,148.03,525,2017,0.387682764731945
+70,Xiamen University (XMU),China,146.2,271,2017,0.2001181509378231
+71,Tohoku University,Japan,142.81,398,2017,0.29390045783488405
+72,University of Copenhagen (UCPH),Denmark,140.82,560,2017,0.4135282823807414
+73,The University of Utah (Utah),United States of America (USA),137.06,333,2017,0.24590163934426232
+74,The Ohio State University (OSU),United States of America (USA),135.6,505,2017,0.37291389750406145
+75,Technical University of Munich (TUM),Germany,132.36,478,2017,0.35297592674641853
+76,Utrecht University (UU),Netherlands,131.25,630,2017,0.465219317678334
+77,Tokyo Institute of Technology (Tokyo Tech),Japan,130.47,353,2017,0.2606705065721459
+78,University of Zurich (UZH),Switzerland,129.89,595,2017,0.4393738000295378
+79,"Rutgers, The State University of New Jersey (RU)",United States of America (USA),129.84,423,2017,0.3123615418697386
+80,Heidelberg University (Uni Heidelberg),Germany,127.6,550,2017,0.4061438487667996
+81,Sichuan University (SCU),China,126.91,243,2017,0.179441736818786
+82,The University of British Columbia (UBC),Canada,122.83,424,2017,0.31309998523113275
+83,Vanderbilt University (VU),United States of America (USA),121.74,406,2017,0.2998080047260375
+84,University of Southern California (USC),United States of America (USA),121.6,318,2017,0.23482498892334955
+85,Nagoya University,Japan,121.18,373,2017,0.27543937380002953
+86,Catholic University of Leuven (KU Leuven),Belgium,120.31,335,2017,0.24737852606705066
+87,Karlsruhe Institute of Technology (KIT),Germany,120.3,391,2017,0.2887313543051248
+88,University of Florida (UF),United States of America (USA),119.48,489,2017,0.3610988037217545
+89,The University of Queensland (UQ),Australia,119.11,387,2017,0.2857775808595481
+90,University of Würzburg (JMU),Germany,118.88,316,2017,0.23334810220056124
+91,Hebrew University of Jerusalem (HUJI),Israel,116.94,288,2017,0.21267168808152415
+92,Hokkaido University,Japan,116.17,275,2017,0.2030719243833998
+93,Rice University,United States of America (USA),116.06,398,2017,0.29390045783488405
+94,Huazhong University of Science and Technology (HUST),China,115.78,289,2017,0.21341013144291834
+95,University of Münster (WWU),Germany,112.55,275,2017,0.2030719243833998
+96,University of Groningen (RUG),Netherlands,112.12,372,2017,0.27470093043863536
+97,Monash University,Australia,112.11,412,2017,0.3042386648944026
+98,King Abdullah University of Science and Technology (KAUST),Saudi Arabia,111.62,242,2017,0.17870329345739183
+99,University of Geneva (UNIGE),Switzerland,111.41,396,2017,0.2924235711120957
+100,The Hong Kong University of Science and Technology (HKUST),China,110.48,324,2017,0.23925564909171465
+101,Lanzhou University (LZU),China,108.77,200,2017,0.1476886722788362
+102,University of Basel (UB),Switzerland,108.56,319,2017,0.23556343228474377
+103,Sorbonne University,France,108.55,1080,2017,0.7975188303057155
+104,University of Göttingen,Germany,105.17,321,2017,0.2370403190075321
+105,"University of California, Riverside (UCR)",United States of America (USA),104.19,294,2017,0.21710234824988922
+106,Arizona State University (ASU),United States of America (USA),102.77,336,2017,0.24811696942844486
+107,University of New South Wales (UNSW Sydney),Australia,102.76,326,2017,0.24073253581450302
+108,Indiana University (IU),United States of America (USA),102.05,367,2017,0.27100871363166446
+109,Jilin University (JLU),China,101.49,233,2017,0.1720573032048442
+110,University of Alberta (U of A),Canada,101.41,311,2017,0.2296558853935903
+111,The Rockefeller University,United States of America (USA),100.66,277,2017,0.20454881110618817
+112,Emory University,United States of America (USA),100.37,270,2017,0.19937970757642887
+113,Uppsala University (UU),Sweden,97.53,439,2017,0.32417663565204546
+114,South China University of Technology (SCUT),China,97.39,187,2017,0.13808890858071185
+115,Kyushu University,Japan,97.34,317,2017,0.2340865455619554
+116,Boston University (BU),United States of America (USA),95.73,514,2017,0.3795598877566091
+117,University of Freiburg (Uni Freiburg),Germany,95.47,320,2017,0.23630187564613794
+118,Free University of Berlin (FU Berlin),Germany,93.85,473,2017,0.34928370993944763
+119,RWTH Aachen University (RWTH Aachen),Germany,93.58,409,2017,0.30202333481022003
+120,Johannes Gutenberg University Mainz (JGU),Germany,93.56,366,2017,0.2702702702702703
+121,The University of Hong Kong (HKU),China,93.55,359,2017,0.265101166740511
+122,The University of Arizona (Arizona),United States of America (USA),92.34,350,2017,0.25845517648796335
+123,Dresden University of Technology (TU Dresden),Germany,90.97,407,2017,0.3005464480874317
+124,Tel Aviv University (TAU),Israel,90.77,307,2017,0.2267021119480136
+125,Baylor College of Medicine (BCM),United States of America (USA),90.67,299,2017,0.22079456505686013
+126,The University of Melbourne (UniMelb),Australia,90.61,495,2017,0.36552946389011964
+127,Shandong University (SDU),China,90.07,354,2017,0.26140894993354014
+128,Harbin Institute of Technology (HIT),China,89.28,174,2017,0.1284891448825875
+129,Hunan University (HNU),China,89.2,164,2017,0.12110471126864569
+130,Xi'an Jiaotong University (XJTU),China,88.6,209,2017,0.15433466253138384
+131,University of Erlangen-Nuremberg (FAU),Germany,88.2,257,2017,0.18977994387830455
+132,North Carolina State University (NCSU),United States of America (USA),88.04,256,2017,0.18904150051691035
+133,Beijing Normal University (BNU),China,87.66,254,2017,0.187564613794122
+134,Pohang University of Science and Technology (POSTECH),South Korea,87.04,205,2017,0.15138088908580713
+135,University of Massachusetts Amherst (UMass Amherst),United States of America (USA),86.52,279,2017,0.2060256978289765
+136,East China Normal University (ECNU),China,86.29,185,2017,0.1366120218579235
+137,Leiden University,Netherlands,85.96,335,2017,0.24737852606705066
+138,Technion-Israel Institute of Technology (IIT),Israel,85.33,261,2017,0.19273371732388125
+139,Australian National University (ANU),Australia,85.16,304,2017,0.22448678186383106
+140,Indian Institute of Science (IISc),India,84.53,170,2017,0.1255353714370108
+141,Brown University,United States of America (USA),84.43,272,2017,0.20085659429921726
+142,Lund University (LU),Sweden,83.96,324,2017,0.23925564909171465
+143,National Taiwan University (NTU),Taiwan,82.55,318,2017,0.23482498892334955
+144,East China University of Science and Technology (ECUST),China,82.41,177,2017,0.13070447496677007
+145,State University of New York at Stony Brook (SUNY Stony Brook),United States of America (USA),82.19,341,2017,0.25180918623541576
+146,Stockholm University,Sweden,82.16,502,2017,0.3706985674198789
+147,Michigan State University (MSU),United States of America (USA),81.92,361,2017,0.2665780534632994
+148,Durham University,United Kingdom (UK),81.78,227,2017,0.1676266430364791
+149,University of Hamburg (UHH),Germany,81.75,361,2017,0.2665780534632994
+150,Aarhus University (AU),Denmark,80.98,255,2017,0.18830305715551615
+151,University of Bonn (Uni Bonn),Germany,80.46,339,2017,0.2503322995126274
+152,King's College London (KCL),United Kingdom (UK),80.21,394,2017,0.2909466843893073
+153,Tianjin University (TJU),China,79.07,396,2017,0.2924235711120957
+154,University of Southampton (Soton),United Kingdom (UK),78.9,340,2017,0.2510707428740216
+155,University of Virginia (UVA),United States of America (USA),78.71,296,2017,0.2185792349726776
+156,University of Amsterdam (UvA),Netherlands,78.24,536,2017,0.3958056417072811
+157,The University of Texas MD Anderson Cancer Center,United States of America (USA),78.19,257,2017,0.18977994387830455
+158,Ulsan National Institute of Science and Technology (UNIST),South Korea,77.62,164,2017,0.12110471126864569
+159,Radboud University Nijmegen (RU),Netherlands,77.5,477,2017,0.35223748338502436
+160,University of Glasgow,United Kingdom (UK),77.05,418,2017,0.3086693250627677
+161,The University of Warwick (Warwick),United Kingdom (UK),76.64,323,2017,0.23851720573032048
+162,Karolinska Institute (KI),Sweden,76.44,361,2017,0.2665780534632994
+163,Sungkyunkwan University (SKKU),South Korea,76.42,256,2017,0.18904150051691035
+164,Colorado State University,United States of America (USA),76.22,226,2017,0.16688819967508492
+165,Tongji University,China,75.99,246,2017,0.18165706690296854
+166,University of Tübingen (Uni Tübingen),Germany,75.92,282,2017,0.20824102791315904
+167,Southeast University (SEU),China,75.87,140,2017,0.10338207059518535
+168,Technical University of Denmark (DTU),Denmark,74.7,233,2017,0.1720573032048442
+169,Yonsei University,South Korea,74.24,207,2017,0.1528577758085955
+170,Delft University of Technology (TU Delft),Netherlands,74.18,207,2017,0.1528577758085955
+171,University of Paris,France,73.49,780,2017,0.5759858218874613
+172,Carnegie Mellon University (CMU),United States of America (USA),73.01,270,2017,0.19937970757642887
+173,Virginia Polytechnic Institute and State University (Virginia Tech),United States of America (USA),72.51,189,2017,0.13956579530350022
+174,University of Connecticut (UConn),United States of America (USA),71.88,175,2017,0.12922758824398167
+175,University of Paris-Sud (UPSud),France,71.69,749,2017,0.5530940776842417
+176,The University of Iowa (UI),United States of America (USA),71.68,357,2017,0.26362428001772265
+177,University of Barcelona (UB),Spain,71.19,347,2017,0.25623984640378084
+178,"University of California, Santa Cruz (UCSC)",United States of America (USA),70.28,300,2017,0.2215330084182543
+179,Humboldt University of Berlin (HU Berlin),Germany,69.5,480,2017,0.35445281346920693
+180,The Chinese University of Hong Kong (CUHK),China,69.12,301,2017,0.22227145177964852
+181,University of Rochester (UR),United States of America (USA),68.65,263,2017,0.19421060404666962
+182,The University of Sydney (USYD),Australia,68.63,332,2017,0.24516319598286812
+183,University of Waterloo,Canada,68.53,160,2017,0.11815093782306897
+184,Case Western Reserve University (CWRU),United States of America (USA),68.42,188,2017,0.13882735194210605
+185,Southern University of Science and Technology (SUSTech),China,68.07,203,2017,0.14990400236301876
+186,University of Leeds,United Kingdom (UK),68.04,235,2017,0.17353418992763256
+187,Goethe University Frankfurt (GU),Germany,67.98,217,2017,0.1602422094225373
+188,University of Oslo (UiO),Norway,67.96,347,2017,0.25623984640378084
+189,The University of Georgia (UGA),United States of America (USA),67.78,173,2017,0.12775070152119333
+190,Iowa State University,United States of America (USA),67.4,245,2017,0.18091862354157437
+191,Technische Universität Berlin (TU Berlin),Germany,67.17,160,2017,0.11815093782306897
+192,University of Vienna,Austria,67.04,222,2017,0.16393442622950818
+193,Eindhoven University of Technology (TU/e),Netherlands,66.96,136,2017,0.10042829714960863
+194,University of Notre Dame (ND),United States of America (USA),66.3,256,2017,0.18904150051691035
+195,The University of Sheffield,United Kingdom (UK),66.08,282,2017,0.20824102791315904
+196,Dalian University of Technology (DUT),China,65.58,126,2017,0.09304386353566681
+197,Homi Bhabha National Institute (HBNI),India,64.82,206,2017,0.1521193324472013
+198,Ghent University (UGent),Belgium,64.51,290,2017,0.2141485748043125
+199,University of Bern (UniBE),Switzerland,64.11,315,2017,0.232609658839167
+200,"Icahn School of Medicine at Mount Sinai (ISMMS), MSHS",United States of America (USA),64.1,266,2017,0.19642593413085216
+201,University of Ottawa (uOttawa),Canada,63.75,166,2017,0.12258159799143406
+202,University of Regensburg (UR),Germany,62.91,152,2017,0.11224339093191553
+203,Southwest University (SWU),China,62.75,93,2017,0.06867523260965884
+204,University of Montreal (UdeM),Canada,62.36,335,2017,0.24737852606705066
+205,Keio University,Japan,62.11,132,2017,0.0974745237040319
+206,University of Cincinnati (UC),United States of America (USA),62.11,237,2017,0.1750110766504209
+207,University of Nebraska-Lincoln (UNL),United States of America (USA),61.73,210,2017,0.15507310589277803
+208,National Tsing Hua University (NTHU),Taiwan,61.45,231,2017,0.17058041648205582
+209,University of Helsinki,Finland,60.82,338,2017,0.2495938561512332
+210,The University of Nottingham (UoN),United Kingdom (UK),60.74,177,2017,0.13070447496677007
+211,Florida State University (FSU),United States of America (USA),60.22,312,2017,0.23039432875498447
+212,University of Massachusetts Medical School (UMass Medical School),United States of America (USA),59.47,249,2017,0.18387239698715108
+213,Grenoble Alpes University (UGA),France,58.71,594,2017,0.4386353566681435
+214,University of St Andrews,United Kingdom (UK),58.15,211,2017,0.1558115492541722
+215,University of Illinois at Chicago (UIC),United States of America (USA),58.04,259,2017,0.1912568306010929
+216,Dartmouth College,United States of America (USA),57.83,149,2017,0.11002806084773299
+217,University of Strasbourg,France,57.49,432,2017,0.3190075321222862
+218,Oregon State University,United States of America (USA),57.1,169,2017,0.1247969280756166
+219,University of São Paulo (USP),Brazil,56.92,267,2017,0.19716437749224633
+220,Korea University,South Korea,56.42,237,2017,0.1750110766504209
+221,University of Colorado Anschutz Medical Campus (CU Anschutz),United States of America (USA),56.39,158,2017,0.11667405110028062
+222,Autonomous University of Madrid (UAM),Spain,56.14,354,2017,0.26140894993354014
+223,Ruhr University Bochum (RUB),Germany,56.11,187,2017,0.13808890858071185
+224,University of Lausanne (UNIL),Switzerland,55.34,199,2017,0.14695022891744203
+225,KTH Royal Institute of Technology,Sweden,54.97,444,2017,0.32786885245901637
+226,University of the Basque Country (UPV/EHU),Spain,54.73,216,2017,0.1595037660611431
+227,University of Cologne (UoC),Germany,54.57,208,2017,0.15359621916998967
+228,Vienna University of Technology (TU Wien),Austria,54.04,197,2017,0.14547334219465366
+229,University of Birmingham (UB),United Kingdom (UK),53.88,317,2017,0.2340865455619554
+230,Beihang University (BUAA),China,53.84,241,2017,0.17796485009599763
+231,University of Liverpool,United Kingdom (UK),53.66,336,2017,0.24811696942844486
+232,University of Oregon (UO),United States of America (USA),53.54,181,2017,0.13365824841234678
+233,Albert Einstein College of Medicine (Einstein),United States of America (USA),53.49,156,2017,0.11519716437749224
+234,University of Calgary (U of C),Canada,53.39,222,2017,0.16393442622950818
+235,Beijing University of Chemical Technology (BUCT),China,53.13,106,2017,0.07827499630778319
+236,University of Houston (UH),United States of America (USA),53.05,189,2017,0.13956579530350022
+237,University of Exeter,United Kingdom (UK),52.94,197,2017,0.14547334219465366
+238,Shandong Normal University (SDNU),China,52.39,79,2017,0.05833702555014031
+239,Beijing Institute of Technology (BIT),China,52.15,112,2017,0.08270565647614828
+240,The University of Kansas (KU),United States of America (USA),51.92,224,2017,0.16541131295229655
+241,Wageningen University & Research (WUR),Netherlands,51.88,165,2017,0.12184315463003986
+242,Nanjing Tech University (NanjingTech),China,50.75,139,2017,0.10264362723379117
+243,University of Toulouse,France,50.42,392,2017,0.289469797666519
+244,University of Delaware (UD),United States of America (USA),49.99,125,2017,0.09230542017427264
+245,Leipzig University,Germany,49.93,151,2017,0.11150494757052135
+246,The City University of New York (CUNY),United States of America (USA),48.81,193,2017,0.14251956874907692
+247,Lomonosov Moscow State University (MSU),Russia,48.19,384,2017,0.28356225077536557
+248,Oregon Health and Science University (OHSU),United States of America (USA),47.83,138,2017,0.10190518387239698
+249,The University of Dublin,Ireland,47.78,149,2017,0.11002806084773299
+250,Tufts University,United States of America (USA),47.75,246,2017,0.18165706690296854
+251,Aix-Marseille University (AMU),France,47.66,455,2017,0.3359917294343524
+252,University of Miami (UM),United States of America (USA),47.45,140,2017,0.10338207059518535
+253,Western University (UWO),Canada,47.27,121,2017,0.08935164672869592
+254,Indian Institute of Technology Bombay (IIT Bombay),India,47.24,109,2017,0.08049032639196574
+255,McMaster University,Canada,47.24,113,2017,0.08344409983754246
+256,The University of New Mexico (UNM),United States of America (USA),47.21,221,2017,0.16319598286811401
+257,Ben-Gurion University of the Negev (BGU),Israel,47.15,136,2017,0.10042829714960863
+258,Philipps University of Marburg (Uni Marburg),Germany,46.06,130,2017,0.09599763698124354
+259,"University at Buffalo, The State University of New York (SUNY UB)",United States of America (USA),45.93,154,2017,0.11372027765470388
+260,Central South University (CSU),China,45.86,121,2017,0.08935164672869592
+261,University of Hawai'i at Manoa (UH Mānoa),United States of America (USA),45.81,221,2017,0.16319598286811401
+262,University of Lyon,France,45.77,450,2017,0.3322995126273815
+263,Hanyang University (HYU),South Korea,45.65,188,2017,0.13882735194210605
+264,Central China Normal University (CCNU),China,45.58,157,2017,0.11593560773888642
+265,University of Valencia (UV),Spain,44.92,286,2017,0.2111948013587358
+266,Temple University,United States of America (USA),44.79,123,2017,0.09082853345148427
+267,Queen Mary University of London (QMUL),United Kingdom (UK),44.42,250,2017,0.18461084034854527
+268,City University of Hong Kong (CityU),China,43.85,156,2017,0.11519716437749224
+269,Brandeis University,United States of America (USA),43.84,146,2017,0.10781273076355044
+270,University of Bayreuth (UBT),Germany,43.81,101,2017,0.07458277950081228
+271,Louisiana State University (LSU),United States of America (USA),43.22,135,2017,0.09968985378821443
+272,University of Duisburg-Essen (UDE),Germany,43.02,133,2017,0.09821296706542608
+273,Fuzhou University (FZU),China,42.97,82,2017,0.060552355634322846
+274,University of Kentucky (UK),United States of America (USA),42.9,121,2017,0.08935164672869592
+275,University of York,United Kingdom (UK),42.7,137,2017,0.10116674051100281
+276,The University of Western Australia (UWA),Australia,42.65,248,2017,0.1831339536257569
+277,University of Montpellier,France,42.54,347,2017,0.25623984640378084
+278,TU Dortmund University,Germany,41.96,216,2017,0.1595037660611431
+279,Université Libre de Bruxelles (ULB),Belgium,41.7,212,2017,0.15654999261556637
+280,The University of Tennessee at Knoxville (UTK),United States of America (USA),41.7,277,2017,0.20454881110618817
+281,VU Amsterdam,Netherlands,41.57,376,2017,0.2776547038842121
+282,Shanghai University (SHU),China,41.5,100,2017,0.0738443361394181
+283,University of Science and Technology Beijing (USTB),China,41.38,87,2017,0.06424457244129375
+284,Cardiff University,United Kingdom (UK),41.27,169,2017,0.1247969280756166
+285,University of Konstanz,Germany,41.2,89,2017,0.06572145916408212
+286,University of South Carolina - Columbia (SC),United States of America (USA),41.19,101,2017,0.07458277950081228
+287,Aalto University,Finland,41.05,213,2017,0.15728843597696057
+288,University of Padova (UNIPD),Italy,40.87,304,2017,0.22448678186383106
+289,University of Stuttgart,Germany,40.76,120,2017,0.08861320336730173
+290,University of Sherbrooke (USherbrooke),Canada,40.37,110,2017,0.08122876975335992
+291,Sapienza University of Rome,Italy,40.21,390,2017,0.28799291094373064
+292,Northeast Normal University (NENU),China,40.12,66,2017,0.04873726185201595
+293,University of Tsukuba,Japan,40.09,220,2017,0.16245753950671984
+294,Washington State University (WSU),United States of America (USA),40.05,127,2017,0.093782306897061
+295,The University of Texas at Dallas (UT Dallas),United States of America (USA),39.75,166,2017,0.12258159799143406
+296,Newcastle University,United Kingdom (UK),39.34,173,2017,0.12775070152119333
+297,China University of Geosciences (CUG),China,38.92,92,2017,0.06793678924826466
+298,Complutense University of Madrid (UCM),Spain,38.63,160,2017,0.11815093782306897
+299,Friedrich Schiller University Jena (FSU),Germany,38.47,158,2017,0.11667405110028062
+300,Chongqing University (CQU),China,38.38,99,2017,0.07310589277802393
+301,Chalmers University of Technology (Chalmers),Sweden,38.33,116,2017,0.08565942992172501
+302,University of Bordeaux,France,38.11,249,2017,0.18387239698715108
+303,The University of Adelaide (Adelaide Uni),Australia,38.09,226,2017,0.16688819967508492
+304,The University of Oklahoma (OU),United States of America (USA),37.98,200,2017,0.1476886722788362
+305,Northeastern University (NEU),United States of America (USA),37.78,191,2017,0.14104268202628858
+306,Linköping University (LiU),Sweden,37.72,105,2017,0.07753655294638902
+307,Rensselaer Polytechnic Institute (RPI),United States of America (USA),37.48,85,2017,0.0627676857185054
+308,The Hong Kong Polytechnic University (PolyU),China,37.36,101,2017,0.07458277950081228
+309,The University of Akron (UAkron),United States of America (USA),36.73,69,2017,0.05095259193619849
+310,University of South Florida (USF),United States of America (USA),36.39,94,2017,0.06941367597105302
+311,Indian Institute of Technology Madras (IIT Madras),India,36.29,141,2017,0.10412051395657952
+312,University of Sussex,United Kingdom (UK),36.17,168,2017,0.12405848471422243
+313,Wayne State University,United States of America (USA),35.96,192,2017,0.14178112538768278
+314,University of Strathclyde,United Kingdom (UK),35.5,111,2017,0.08196721311475409
+315,"University of Maryland, Baltimore (UMB)",United States of America (USA),35.35,121,2017,0.08935164672869592
+316,University of Milan (UNIMI),Italy,35.23,281,2017,0.20750258455176487
+317,Indian Institute of Science Education and Research Pune (IISER Pune),India,34.85,133,2017,0.09821296706542608
+318,Autonomous University of Barcelona (UAB),Spain,34.78,226,2017,0.16688819967508492
+319,Northwest University (NWU),China,34.63,56,2017,0.04135282823807414
+320,University of Warsaw (UW),Poland,34.58,192,2017,0.14178112538768278
+321,National Autonomous University of Mexico (UNAM),Mexico,34.57,159,2017,0.11741249446167477
+322,China Pharmaceutical University (CPU),China,34.38,66,2017,0.04873726185201595
+323,University of Lisbon (ULISBOA),Portugal,34.35,202,2017,0.14916555900162456
+324,University of Missouri (Mizzou),United States of America (USA),34.3,85,2017,0.0627676857185054
+325,Nanjing University of Science and Technology (NUST),China,34.05,73,2017,0.05390636538177522
+326,University of East Anglia (UEA),United Kingdom (UK),33.96,109,2017,0.08049032639196574
+327,National Chiao Tung University (NCTU),Taiwan,33.77,87,2017,0.06424457244129375
+328,Simon Fraser University (SFU),Canada,33.64,176,2017,0.12996603160537587
+329,Ulm University,Germany,33.59,135,2017,0.09968985378821443
+330,Shenzhen University (SZU),China,33.5,137,2017,0.10116674051100281
+331,University of Innsbruck (LFU),Austria,33.29,169,2017,0.1247969280756166
+332,University of Florence (UNIFI),Italy,33.25,214,2017,0.15802687933835477
+333,University of Victoria (UVic),Canada,33.08,179,2017,0.1321813616895584
+334,Indian Institute of Technology Kanpur (IIT Kanpur),India,33.07,55,2017,0.04061438487667996
+335,University of Bremen (Uni Bremen),Germany,32.9,107,2017,0.07901343966917738
+336,University of Wollongong (UOW),Australia,32.84,117,2017,0.08639787328311918
+337,University of Bath,United Kingdom (UK),32.82,103,2017,0.07605966622360065
+338,Chinese Academy of Medical Sciences & Peking Union Medical College (CAMS & PUMC),China,32.72,117,2017,0.08639787328311918
+339,Waseda University,Japan,32.47,145,2017,0.10707428740215626
+340,University of Santiago de Compostela (USC),Spain,32.19,159,2017,0.11741249446167477
+341,Wuhan University of Technology (WUT),China,31.99,67,2017,0.04947570521341014
+342,Dalhousie University,Canada,31.94,97,2017,0.07162900605523556
+343,University of Gothenburg (GU),Sweden,31.81,124,2017,0.09156697681287845
+344,University of Otago,New Zealand,31.54,113,2017,0.08344409983754246
+345,Jagiellonian University (UJ),Poland,31.44,160,2017,0.11815093782306897
+346,China Agricultural University (CAU),China,31.35,81,2017,0.05981391227292866
+347,Shaanxi Normal University (SNNU),China,31.25,46,2017,0.03396839462413233
+348,The University of Texas Health Science Center at Houston (UTHealth),United States of America (USA),31.14,138,2017,0.10190518387239698
+349,Jinan University (JNU),China,30.81,102,2017,0.07532122286220647
+350,University of Kiel (CAU),Germany,30.7,126,2017,0.09304386353566681
+351,Leibniz University Hannover (LUH),Germany,30.54,106,2017,0.07827499630778319
+352,Technical University of Darmstadt (TU Darmstadt),Germany,30.45,115,2017,0.08492098656033081
+353,The University of Alabama at Birmingham (UAB),United States of America (USA),30.3,113,2017,0.08344409983754246
+354,Charles University (CU),Czech Republic,30.19,286,2017,0.2111948013587358
+355,Curtin University,Australia,30.17,133,2017,0.09821296706542608
+356,Ewha Womans University (Ewha),South Korea,29.66,83,2017,0.06129079899571703
+357,Boston College (BC),United States of America (USA),29.5,52,2017,0.03839905479249742
+358,Bar-Ilan University (BIU),Israel,29.43,72,2017,0.05316792202038104
+359,Ocean University of China (OUC),China,29.37,99,2017,0.07310589277802393
+360,National Institute of Applied Sciences (INSA),France,29.36,309,2017,0.22817899867080194
+361,Martin Luther University Halle-Wittenberg (MLU),Germany,29.21,108,2017,0.07975188303057155
+362,Umeå University (UMU),Sweden,29.12,118,2017,0.08713631664451336
+363,Okayama University,Japan,28.97,144,2017,0.10633584404076207
+364,Hiroshima University (HU),Japan,28.91,108,2017,0.07975188303057155
+365,Technical University Braunschweig (TU Braunschweig),Germany,28.64,76,2017,0.056121695465957765
+366,University of Bologna (UNIBO),Italy,28.31,323,2017,0.23851720573032048
+367,"University of Nevada, Reno (UNR)",United States of America (USA),28.21,74,2017,0.0546448087431694
+368,Kobe University,Japan,28.13,138,2017,0.10190518387239698
+369,The University of Auckland,New Zealand,27.49,182,2017,0.13439669177374094
+370,Kanazawa University (KU),Japan,27.42,70,2017,0.051691035297592676
+371,Changzhou University (CZU),China,27.14,40,2017,0.029537734455767243
+372,Nanjing Normal University (NNU),China,27.11,96,2017,0.07089056269384139
+373,Scuola Internazionale Superiore di Studi Avanzati (SISSA),Italy,27.08,99,2017,0.07310589277802393
+374,Shanxi University (SXU),China,27.0,79,2017,0.05833702555014031
+375,Laval University (UL),Canada,26.97,109,2017,0.08049032639196574
+376,Beijing University of Technology (BJUT),China,26.7,75,2017,0.055383252104563574
+377,University of Liège (ULg),Belgium,26.7,105,2017,0.07753655294638902
+378,Virginia Commonwealth University (VCU),United States of America (USA),26.69,64,2017,0.04726037512922759
+379,Drexel University,United States of America (USA),26.67,95,2017,0.0701521193324472
+380,National Cheng Kung University (NCKU),Taiwan,26.44,86,2017,0.06350612907989957
+381,University of Central Florida (UCF),United States of America (USA),26.27,69,2017,0.05095259193619849
+382,University of Dundee,United Kingdom (UK),26.24,99,2017,0.07310589277802393
+383,École Normale Supérieure (ENS Paris),France,26.23,317,2017,0.2340865455619554
+384,University of Antwerp (UA),Belgium,26.22,179,2017,0.1321813616895584
+385,Lancaster University,United Kingdom (UK),26.21,171,2017,0.12627381479840497
+386,Catholic University of Louvain (UCLouvain),Belgium,25.97,155,2017,0.11445872101609807
+387,Zhengzhou University (ZZU),China,25.79,81,2017,0.05981391227292866
+388,University of Milano-Bicocca (UNIMIB),Italy,25.73,222,2017,0.16393442622950818
+389,Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR),India,25.53,41,2017,0.030276177817161423
+390,West Virginia University (WVU),United States of America (USA),25.51,83,2017,0.06129079899571703
+391,Georgia State University (GSU),United States of America (USA),25.45,78,2017,0.05759858218874612
+392,University of Electronic Science and Technology of China (UESTC),China,25.44,94,2017,0.06941367597105302
+393,Clemson University,United States of America (USA),25.36,58,2017,0.042829714960862506
+394,Queen's University Belfast (QUB),United Kingdom (UK),25.35,85,2017,0.0627676857185054
+395,University of Turin (UNITO),Italy,25.31,246,2017,0.18165706690296854
+396,University of Saskatchewan (U of S),Canada,25.18,77,2017,0.05686013882735194
+397,Queen's University,Canada,25.13,155,2017,0.11445872101609807
+398,Kyung Hee University (KHU),South Korea,25.02,66,2017,0.04873726185201595
+399,University of Twente (UTwente),Netherlands,24.91,64,2017,0.04726037512922759
+400,Institute of Science and Technology Austria (IST Austria),Austria,24.87,54,2017,0.03987594151528578
+401,Indian Institute of Technology Kharagpur (IIT Kharagpur),India,24.85,44,2017,0.03249150790134397
+402,Griffith University,Australia,24.6,98,2017,0.07236744941662974
+403,Norwegian University of Science and Technology (NTNU),Norway,24.51,87,2017,0.06424457244129375
+404,Heinrich Heine University Düsseldorf (HHU),Germany,24.49,96,2017,0.07089056269384139
+405,Macquarie University,Australia,24.49,106,2017,0.07827499630778319
+406,University of Bergen (UIB),Norway,24.05,210,2017,0.15507310589277803
+407,University of Fribourg (UNIFR),Switzerland,23.96,97,2017,0.07162900605523556
+408,Giessen University (JLU),Germany,23.72,152,2017,0.11224339093191553
+409,South China Normal University (SCNU),China,23.59,49,2017,0.03618372470831487
+410,Medical University of South Carolina (MUSC),United States of America (USA),23.52,61,2017,0.04504504504504504
+411,ShanghaiTech University,China,23.4,131,2017,0.09673608034263773
+412,Indian Institute of Technology Guwahati (IIT Guwahati),India,23.19,50,2017,0.03692216806970905
+413,Erasmus University Rotterdam (EUR),Netherlands,23.04,157,2017,0.11593560773888642
+414,Graz University of Technology (TU Graz),Austria,22.87,66,2017,0.04873726185201595
+415,Huazhong Agricultural University (HZAU),China,22.79,55,2017,0.04061438487667996
+416,The University of Texas at San Antonio (UTSA),United States of America (USA),22.76,72,2017,0.05316792202038104
+417,University of Naples Federico II (UNINA),Italy,22.72,276,2017,0.20381036774479397
+418,University of Oviedo (UniOvi),Spain,22.63,142,2017,0.1048589573179737
+419,University of Granada (UGR),Spain,22.38,141,2017,0.10412051395657952
+420,University of Tasmania (UTAS),Australia,22.34,96,2017,0.07089056269384139
+421,Masaryk University (MU),Czech Republic,22.15,86,2017,0.06350612907989957
+422,University of Potsdam,Germany,21.94,107,2017,0.07901343966917738
+423,University of Southern Denmark (SDU),Denmark,21.86,103,2017,0.07605966622360065
+424,University of Vermont (UVM),United States of America (USA),21.54,65,2017,0.04799881849062177
+425,Swansea University,United Kingdom (UK),21.2,66,2017,0.04873726185201595
+426,Okinawa Institute of Science and Technology Graduate University (OIST),Japan,21.17,45,2017,0.03322995126273815
+427,University of Manitoba,Canada,20.93,146,2017,0.10781273076355044
+428,Institute for Advanced Study (IAS),United States of America (USA),20.86,66,2017,0.04873726185201595
+429,University College Dublin (UCD),Ireland,20.77,207,2017,0.1528577758085955
+430,Nanjing Agricultural University (NAU),China,20.72,46,2017,0.03396839462413233
+431,University of Guelph,Canada,20.67,156,2017,0.11519716437749224
+432,Zhejiang University of Technology (ZJUT),China,20.6,60,2017,0.044306601683650866
+433,Chung-Ang University (CAU),South Korea,20.58,48,2017,0.035445281346920696
+434,Capital Normal University (CNU),China,20.55,57,2017,0.04209127159946832
+435,University of Reading,United Kingdom (UK),20.45,84,2017,0.062029242357111214
+436,State University of New York at Albany (SUNY Albany),United States of America (USA),20.42,126,2017,0.09304386353566681
+437,Indian Institute of Science Education and Research Bhopal (IISER Bhopal),India,20.4,58,2017,0.042829714960862506
+438,Chiba University,Japan,20.38,75,2017,0.055383252104563574
+439,University of Graz (Uni Graz),Austria,20.26,56,2017,0.04135282823807414
+440,Northwestern Polytechnical University (NPU),China,20.24,55,2017,0.04061438487667996
+441,Tokyo University of Agriculture and Technology (TUAT),Japan,20.17,33,2017,0.024368630926007974
+442,University of Aveiro (UA),Portugal,19.99,65,2017,0.04799881849062177
+443,Swedish University of Agricultural Sciences (SLU),Sweden,19.94,85,2017,0.0627676857185054
+444,University of Buenos Aires (UBA),Argentina,19.83,152,2017,0.11224339093191553
+445,University of Siegen,Germany,19.72,105,2017,0.07753655294638902
+446,Thomas Jefferson University (TJU),United States of America (USA),19.66,60,2017,0.044306601683650866
+447,University of Jyväskylä,Finland,19.65,162,2017,0.11962782454585733
+448,Polytechnic University of Milan,Italy,19.58,83,2017,0.06129079899571703
+449,University of Nebraska Medical Center (UNMC),United States of America (USA),19.51,48,2017,0.035445281346920696
+450,University of Wyoming,United States of America (USA),19.49,72,2017,0.05316792202038104
+451,Texas Tech University (TTU),United States of America (USA),19.43,142,2017,0.1048589573179737
+452,Federal University of Rio de Janeiro (UFRJ),Brazil,19.37,181,2017,0.13365824841234678
+453,University of Jinan (UJN),China,19.35,31,2017,0.022891744203219613
+454,University of Trento (UNITN),Italy,19.2,177,2017,0.13070447496677007
+455,Academy of Scientific and Innovative Research (AcSIR),India,19.16,69,2017,0.05095259193619849
+456,Montana State University,United States of America (USA),19.12,91,2017,0.06719834588687047
+457,Tokyo University of Science (TUS),Japan,18.96,60,2017,0.044306601683650866
+458,Bielefeld University,Germany,18.9,49,2017,0.03618372470831487
+459,University of Leicester,United Kingdom (UK),18.84,104,2017,0.07679810958499483
+460,Grenoble Institute of Technology (Grenoble INP),France,18.74,314,2017,0.23187121547777284
+461,Nanjing University of Information Science and Technology (NUIST),China,18.67,75,2017,0.055383252104563574
+462,Renmin University of China (RUC),China,18.66,56,2017,0.04135282823807414
+463,Royal Melbourne Institute of Technology (RMIT University),Australia,18.59,75,2017,0.055383252104563574
+464,Henan Normal University,China,18.51,39,2017,0.02879929109437306
+465,Gwangju Institute of Science and Technology (GIST),South Korea,18.43,44,2017,0.03249150790134397
+466,Pusan National University (PNU),South Korea,18.39,95,2017,0.0701521193324472
+467,Indian Institute of Science Education and Research Kolkata (IISER Kolkata),India,18.34,48,2017,0.035445281346920696
+468,Jiangsu Normal University (JSNU),China,18.17,28,2017,0.02067641411903707
+469,Indian Institute of Technology Delhi (IIT Delhi),India,18.05,31,2017,0.022891744203219613
+470,Kumamoto University,Japan,18.03,52,2017,0.03839905479249742
+471,Lehigh University,United States of America (USA),18.02,43,2017,0.031753064539949784
+472,The University of Texas at Arlington (UTA),United States of America (USA),17.96,112,2017,0.08270565647614828
+473,Saint Petersburg State University (SPbU),Russia,17.86,104,2017,0.07679810958499483
+474,Victoria University of Wellington (Victoria),New Zealand,17.84,81,2017,0.05981391227292866
+475,Henan University (HENU),China,17.65,36,2017,0.02658396101019052
+476,University of Porto (UP),Portugal,17.57,141,2017,0.10412051395657952
+477,Hannover Medical School (MHH),Germany,17.55,82,2017,0.060552355634322846
+478,São Paulo State University (UNESP),Brazil,17.47,124,2017,0.09156697681287845
+479,Saarland University (Saar-Uni),Germany,17.39,58,2017,0.042829714960862506
+480,Medical University of Vienna (MUW),Austria,17.33,104,2017,0.07679810958499483
+481,Nara Institute of Science and Technology (NAIST),Japan,17.28,46,2017,0.03396839462413233
+482,University of Rennes 1,France,17.22,144,2017,0.10633584404076207
+483,Nanchang University (NCU),China,17.22,57,2017,0.04209127159946832
+484,Ajou University (AJOU),South Korea,17.17,44,2017,0.03249150790134397
+485,University of Tromsø - The Arctic University of Norway (UiT),Norway,16.99,77,2017,0.05686013882735194
+486,University of Chile,Chile,16.94,90,2017,0.0664599025254763
+487,Army Medical University,China,16.93,85,2017,0.0627676857185054
+488,Johannes Kepler University of Linz (JKU),Austria,16.92,41,2017,0.030276177817161423
+489,Hong Kong Baptist University (HKBU),China,16.87,82,2017,0.060552355634322846
+490,The George Washington University (GW),United States of America (USA),16.86,74,2017,0.0546448087431694
+491,Georgetown University,United States of America (USA),16.71,47,2017,0.03470683798552651
+492,Nanjing Medical University (NJMU),China,16.58,64,2017,0.04726037512922759
+493,Nagoya Institute of Technology (NITech),Japan,16.51,24,2017,0.017722640673460348
+494,National Central University (NCU),Taiwan,16.48,135,2017,0.09968985378821443
+495,University of Aberdeen,United Kingdom (UK),16.38,82,2017,0.060552355634322846
+496,École Normale Supérieure de Lyon (ENS de Lyon),France,16.34,173,2017,0.12775070152119333
+497,Osaka Prefecture University (OPU),Japan,16.26,39,2017,0.02879929109437306
+498,University of North Texas (UNT),United States of America (USA),16.25,43,2017,0.031753064539949784
+499,Syracuse University,United States of America (USA),16.23,110,2017,0.08122876975335992
+500,The University of Toledo (UT),United States of America (USA),16.22,37,2017,0.0273224043715847

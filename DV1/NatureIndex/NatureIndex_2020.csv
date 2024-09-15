@@ -1,0 +1,501 @@
+World Rank,Institution,Country,Share,Count,Year,Publication share
+1,Harvard University,United States of America (USA),927.26,2569,2020,1.6268245575151188
+2,Stanford University,United States of America (USA),638.05,1687,2020,1.0682962353164678
+3,Massachusetts Institute of Technology (MIT),United States of America (USA),526.26,1841,2020,1.165817053478137
+4,The University of Tokyo (UTokyo),Japan,461.85,1308,2020,0.8282937023082039
+5,University of Oxford,United Kingdom (UK),458.8,1437,2020,0.9099832188202515
+6,University of Cambridge,United Kingdom (UK),456.45,1439,2020,0.9112497229522211
+7,University of Science and Technology of China (USTC),China,448.5,1270,2020,0.8042301238007789
+8,Peking University (PKU),China,446.11,1634,2020,1.03473387581927
+9,University of Chinese Academy of Sciences (UCAS),China,425.66,2503,2020,1.585029921160118
+10,Nanjing University (NJU),China,417.89,1022,2020,0.6471836114365324
+11,University of Michigan (U-M),United States of America (USA),398.64,1034,2020,0.6547826362283506
+12,"University of California, Berkeley (UC Berkeley)",United States of America (USA),394.96,1302,2020,0.8244941899122946
+13,Tsinghua University,China,394.09,1360,2020,0.8612228097394167
+14,Swiss Federal Institute of Technology Zurich (ETH Zurich),Switzerland,377.72,1055,2020,0.6680809296140329
+15,Yale University,United States of America (USA),356.24,1001,2020,0.6338853180508501
+16,University of Toronto (U of T),Canada,343.33,931,2020,0.5895576734319096
+17,Zhejiang University (ZJU),China,342.07,850,2020,0.5382642560871355
+18,"University of California, Los Angeles (UCLA)",United States of America (USA),339.09,1118,2020,0.7079758097710793
+19,"University of California, San Diego (UC San Diego)",United States of America (USA),338.45,1005,2020,0.6364183263147896
+20,Columbia University in the City of New York (CU),United States of America (USA),331.37,1021,2020,0.6465503593705475
+21,Cornell University,United States of America (USA),315.87,991,2020,0.6275527973910014
+22,Northwestern University (NU),United States of America (USA),315.58,757,2020,0.47937181395054307
+23,University of Pennsylvania (Penn),United States of America (USA),307.72,864,2020,0.5471297850109236
+24,National University of Singapore (NUS),Singapore,300.27,851,2020,0.5388975081531203
+25,Shanghai Jiao Tong University (SJTU),China,295.15,839,2020,0.5312984833613019
+26,California Institute of Technology (Caltech),United States of America (USA),293.44,899,2020,0.5692936073203938
+27,Johns Hopkins University (JHU),United States of America (USA),293.38,928,2020,0.587657917233955
+28,Fudan University,China,291.18,799,2020,0.5059684007219073
+29,Princeton University,United States of America (USA),275.69,763,2020,0.4831713263464522
+30,Sun Yat-sen University (SYSU),China,269.22,715,2020,0.4527752271791786
+31,University of Washington (UW),United States of America (USA),268.45,958,2020,0.6066554792135009
+32,Kyoto University,Japan,267.94,696,2020,0.4407434379254662
+33,The University of Texas at Austin (UT Austin),United States of America (USA),260.84,732,2020,0.46354051230092136
+34,Swiss Federal Institute of Technology Lausanne (EPFL),Switzerland,260.31,630,2020,0.39894880157046514
+35,Imperial College London (ICL),United Kingdom (UK),254.49,962,2020,0.6091884874774404
+36,The University of Chicago (UChicago),United States of America (USA),252.21,732,2020,0.46354051230092136
+37,"University of California, San Francisco (UCSF)",United States of America (USA),235.14,697,2020,0.44137668999145113
+38,Nankai University (NKU),China,230.53,565,2020,0.35778741728144886
+39,The Pennsylvania State University (Penn State),United States of America (USA),227.29,609,2020,0.3856505081847829
+40,Washington University in St. Louis (WUSTL),United States of America (USA),221.64,572,2020,0.3622201817433429
+41,Southern University of Science and Technology (SUSTech),China,221.61,591,2020,0.37425197099705537
+42,Nanyang Technological University (NTU),Singapore,221.41,571,2020,0.36158692967735806
+43,Sichuan University (SCU),China,220.61,396,2020,0.25076781813000665
+44,Duke University,United States of America (USA),218.93,704,2020,0.44580945445334513
+45,University of Illinois at Urbana-Champaign (UIUC),United States of America (USA),216.17,574,2020,0.3634866858753127
+46,University of Minnesota (UMN),United States of America (USA),214.59,664,2020,0.42047937181395056
+47,UCL,United Kingdom (UK),211.46,919,2020,0.5819586486400912
+48,University of Wisconsin-Madison (UW-Madison),United States of America (USA),209.27,620,2020,0.39261628091061646
+49,Wuhan University (WHU),China,208.92,496,2020,0.31409302472849315
+50,New York University (NYU),United States of America (USA),202.12,639,2020,0.4046480701643289
+51,Seoul National University (SNU),South Korea,199.8,552,2020,0.34955514042364566
+52,"University of California, Santa Barbara (UCSB)",United States of America (USA),197.29,579,2020,0.366652946205237
+53,Soochow University,China,197.13,424,2020,0.2684988759775829
+54,Xiamen University (XMU),China,195.41,395,2020,0.2501345660640218
+55,"University of California, Davis (UC Davis)",United States of America (USA),190.52,583,2020,0.36918595446917646
+56,Korea Advanced Institute of Science and Technology (KAIST),South Korea,189.28,400,2020,0.25330082639394613
+57,Osaka University,Japan,185.04,520,2020,0.32929107431212995
+58,Jilin University (JLU),China,180.65,415,2020,0.2627996073837191
+59,Texas A&M University (TAMU),United States of America (USA),177.77,519,2020,0.3286578222461451
+60,The University of North Carolina at Chapel Hill (UNC),United States of America (USA),175.53,522,2020,0.33055757844409966
+61,Tianjin University (TJU),China,173.64,662,2020,0.41921286768198085
+62,Weizmann Institute of Science (WIS),Israel,173.55,428,2020,0.2710318842415223
+63,Huazhong University of Science and Technology (HUST),China,171.84,461,2020,0.29192920241902287
+64,University of Colorado Boulder (CU-Boulder),United States of America (USA),167.53,646,2020,0.40908083462622297
+65,Ludwig Maximilians University of Munich (LMU),Germany,162.96,649,2020,0.41098059082417754
+66,Tohoku University,Japan,162.21,481,2020,0.3045942437387202
+67,McGill University,Canada,161.48,584,2020,0.3698192065351613
+68,Technical University of Munich (TUM),Germany,161.35,631,2020,0.39958205363645005
+69,The University of Queensland (UQ),Australia,160.78,522,2020,0.33055757844409966
+70,University of Pittsburgh (Pitt),United States of America (USA),160.31,520,2020,0.32929107431212995
+71,Purdue University,United States of America (USA),159.44,431,2020,0.27293164043947693
+72,The Ohio State University (OSU),United States of America (USA),159.15,570,2020,0.3609536776113732
+73,University of Copenhagen (UCPH),Denmark,158.41,665,2020,0.4211126238799354
+74,"University of California, Irvine (UCI)",United States of America (USA),156.03,479,2020,0.30332773960675047
+75,"University of Maryland, College Park (UMCP)",United States of America (USA),155.95,661,2020,0.41857961561599594
+76,University of New South Wales (UNSW Sydney),Australia,155.01,544,2020,0.34448912389576675
+77,The University of Texas Southwestern Medical Center (UT Southwestern Medical Center),United States of America (USA),152.36,316,2020,0.20010765285121743
+78,Georgia Institute of Technology (Georgia Tech),United States of America (USA),149.61,458,2020,0.2900294462210683
+79,The University of Manchester (UoM),United Kingdom (UK),148.4,570,2020,0.3609536776113732
+80,Nagoya University,Japan,147.44,417,2020,0.2640661115156888
+81,The University of Edinburgh,United Kingdom (UK),143.33,657,2020,0.41604660735205645
+82,University of Zurich (UZH),Switzerland,143.13,652,2020,0.41288034702213217
+83,University of Münster (WWU),Germany,140.77,362,2020,0.22923724788652122
+84,Hunan University (HNU),China,140.66,295,2020,0.18680935946553526
+85,East China Normal University (ECNU),China,140.07,326,2020,0.20644017351106608
+86,Heidelberg University (Uni Heidelberg),Germany,138.21,625,2020,0.39578254124054085
+87,University of Bristol (UoB),United Kingdom (UK),137.69,471,2020,0.29826172307887155
+88,Shandong University (SDU),China,135.8,596,2020,0.3774182313269797
+89,Tokyo Institute of Technology (Tokyo Tech),Japan,134.95,385,2020,0.24380204540417313
+90,"Rutgers, The State University of New Jersey (RU)",United States of America (USA),134.69,505,2020,0.319792293322357
+91,Vanderbilt University (VU),United States of America (USA),134.27,427,2020,0.2703986321755375
+92,University of Southern California (USC),United States of America (USA),132.42,414,2020,0.26216635531773425
+93,Karlsruhe Institute of Technology (KIT),Germany,132.41,430,2020,0.2722983883734921
+94,The University of British Columbia (UBC),Canada,132.32,519,2020,0.3286578222461451
+95,The University of Utah (Utah),United States of America (USA),130.37,357,2020,0.2260709875565969
+96,Harbin Institute of Technology (HIT),China,130.25,302,2020,0.19124212392742931
+97,Utrecht University (UU),Netherlands,129.29,631,2020,0.39958205363645005
+98,The Hong Kong University of Science and Technology (HKUST),China,127.97,378,2020,0.23936928094227908
+99,Tongji University,China,127.16,433,2020,0.2741981445714467
+100,Hebrew University of Jerusalem (HUJI),Israel,126.65,300,2020,0.1899756197954596
+101,Monash University,Australia,125.43,540,2020,0.34195611563182726
+102,Beijing Normal University (BNU),China,125.36,407,2020,0.2577335908558402
+103,University of Würzburg (JMU),Germany,125.12,364,2020,0.23050375201849096
+104,Lanzhou University (LZU),China,124.72,297,2020,0.188075863597505
+105,South China University of Technology (SCUT),China,123.26,319,2020,0.20200740904917203
+106,University of Florida (UF),United States of America (USA),121.55,533,2020,0.3375233511699332
+107,Technion-Israel Institute of Technology (IIT),Israel,121.38,284,2020,0.17984358673970174
+108,Arizona State University (ASU),United States of America (USA),119.95,410,2020,0.25963334705379476
+109,Emory University,United States of America (USA),118.8,369,2020,0.23367001234841528
+110,The University of Arizona (Arizona),United States of America (USA),118.4,446,2020,0.2824304214292499
+111,Uppsala University (UU),Sweden,116.53,489,2020,0.30966026026659915
+112,University of Geneva (UNIGE),Switzerland,115.01,386,2020,0.24443529747015796
+113,King Abdullah University of Science and Technology (KAUST),Saudi Arabia,114.89,278,2020,0.17604407434379254
+114,Hokkaido University,Japan,113.26,289,2020,0.18300984706962606
+115,Xi'an Jiaotong University (XJTU),China,113.14,311,2020,0.1969413925212931
+116,Catholic University of Leuven (KU Leuven),Belgium,112.78,401,2020,0.253934078459931
+117,Boston University (BU),United States of America (USA),112.44,546,2020,0.3457556280277364
+118,Indiana University (IU),United States of America (USA),112.25,392,2020,0.24823480986606716
+119,Rice University,United States of America (USA),111.61,402,2020,0.25456733052591585
+120,Kyushu University,Japan,111.36,339,2020,0.2146724503688693
+121,The University of Melbourne (UniMelb),Australia,110.75,580,2020,0.3672861982712219
+122,East China University of Science and Technology (ECUST),China,108.76,268,2020,0.1697115536839439
+123,University of Groningen (RUG),Netherlands,107.41,412,2020,0.2608998511857645
+124,Sorbonne University,France,104.53,1108,2020,0.7016432891112308
+125,University of Göttingen,Germany,103.86,376,2020,0.23810277681030934
+126,Zhengzhou University (ZZU),China,103.38,420,2020,0.26596586771364344
+127,University of Erlangen-Nuremberg (FAU),Germany,103.0,309,2020,0.19567488838932337
+128,"University of California, Riverside (UCR)",United States of America (USA),102.73,320,2020,0.20264066111515688
+129,University of Alberta (U of A),Canada,101.27,359,2020,0.22733749168856662
+130,University of Basel (UB),Switzerland,99.54,330,2020,0.2089731817750055
+131,Free University of Berlin (FU Berlin),Germany,99.51,588,2020,0.3723522147991008
+132,National Taiwan University (NTU),Taiwan,99.06,366,2020,0.23177025615046068
+133,RWTH Aachen University (RWTH Aachen),Germany,98.84,402,2020,0.25456733052591585
+134,Yonsei University,South Korea,96.57,317,2020,0.20074090491720228
+135,University of Virginia (UVA),United States of America (USA),95.42,340,2020,0.21530570243485417
+136,The University of Hong Kong (HKU),China,94.91,419,2020,0.2653326156476586
+137,Karolinska Institute (KI),Sweden,94.89,418,2020,0.2646993635816737
+138,Dresden University of Technology (TU Dresden),Germany,94.54,446,2020,0.2824304214292499
+139,Nanjing Tech University (NanjingTech),China,93.8,185,2020,0.11715163220720008
+140,City University of Hong Kong (CityU),China,93.41,314,2020,0.1988411487192477
+141,Dalian University of Technology (DUT),China,92.81,202,2020,0.12791691732894278
+142,The Chinese University of Hong Kong (CUHK),China,92.57,381,2020,0.24126903714023368
+143,Stockholm University,Sweden,91.35,494,2020,0.31282652059652344
+144,Aarhus University (AU),Denmark,91.17,304,2020,0.19250862805939906
+145,Tel Aviv University (TAU),Israel,90.79,317,2020,0.20074090491720228
+146,Pohang University of Science and Technology (POSTECH),South Korea,90.72,254,2020,0.16084602476015578
+147,Ulsan National Institute of Science and Technology (UNIST),South Korea,90.69,221,2020,0.13994870658265524
+148,Delft University of Technology (TU Delft),Netherlands,90.48,267,2020,0.16907830161795903
+149,Brown University,United States of America (USA),90.04,303,2020,0.19187537599341417
+150,State University of New York at Stony Brook (SUNY Stony Brook),United States of America (USA),89.87,377,2020,0.23873602887629422
+151,Central South University (CSU),China,88.77,275,2020,0.17414431814583795
+152,Baylor College of Medicine (BCM),United States of America (USA),87.75,359,2020,0.22733749168856662
+153,Australian National University (ANU),Australia,87.71,328,2020,0.20770667764303583
+154,University of Tübingen (Uni Tübingen),Germany,87.61,365,2020,0.23113700408447582
+155,Leiden University,Netherlands,86.37,360,2020,0.2279707437545515
+156,King's College London (KCL),United Kingdom (UK),86.2,417,2020,0.2640661115156888
+157,University of Freiburg (Uni Freiburg),Germany,85.87,292,2020,0.18490960326758066
+158,Lund University (LU),Sweden,85.66,372,2020,0.23556976854636988
+159,Michigan State University (MSU),United States of America (USA),85.43,394,2020,0.24950131399803693
+160,Beijing Institute of Technology (BIT),China,84.94,210,2020,0.13298293385682172
+161,North Carolina State University (NCSU),United States of America (USA),84.28,278,2020,0.17604407434379254
+162,The Rockefeller University,United States of America (USA),84.17,244,2020,0.15451350410030715
+163,Shenzhen University (SZU),China,84.13,269,2020,0.17034480574992877
+164,Southeast University (SEU),China,83.88,210,2020,0.13298293385682172
+165,University of Illinois at Chicago (UIC),United States of America (USA),82.54,300,2020,0.1899756197954596
+166,"Icahn School of Medicine at Mount Sinai (ISMMS), MSHS",United States of America (USA),82.51,329,2020,0.20833992970902068
+167,University of Massachusetts Amherst (UMass Amherst),United States of America (USA),82.36,292,2020,0.18490960326758066
+168,Virginia Polytechnic Institute and State University (Virginia Tech),United States of America (USA),82.03,230,2020,0.145647975176519
+169,University of Leeds,United Kingdom (UK),81.43,293,2020,0.18554285533356552
+170,Ghent University (UGent),Belgium,80.69,321,2020,0.20327391318114177
+171,Technical University of Denmark (DTU),Denmark,79.97,283,2020,0.17921033467371686
+172,Durham University,United Kingdom (UK),79.94,265,2020,0.1678117974859893
+173,University of Hamburg (UHH),Germany,79.51,436,2020,0.27609790076940127
+174,University of Rochester (UR),United States of America (USA),79.49,269,2020,0.17034480574992877
+175,University of Paris,France,79.22,856,2020,0.5420637684830446
+176,Colorado State University,United States of America (USA),79.17,263,2020,0.16654529335401957
+177,Beijing University of Chemical Technology (BUCT),China,78.79,192,2020,0.12158439666909414
+178,University of Barcelona (UB),Spain,77.31,415,2020,0.2627996073837191
+179,Johannes Gutenberg University Mainz (JGU),Germany,77.07,364,2020,0.23050375201849096
+180,Indian Institute of Science (IISc),India,76.97,193,2020,0.12221764873507898
+181,Southwest University (SWU),China,76.68,121,2020,0.07662349998416869
+182,Beihang University (BUAA),China,76.54,352,2020,0.22290472722667257
+183,The University of Texas MD Anderson Cancer Center,United States of America (USA),76.52,329,2020,0.20833992970902068
+184,University of Amsterdam (UvA),Netherlands,76.13,584,2020,0.3698192065351613
+185,University of Southampton (Soton),United Kingdom (UK),76.08,332,2020,0.21023968590697528
+186,University of Oslo (UiO),Norway,75.99,351,2020,0.2222714751606877
+187,Jinan University (JNU),China,75.97,200,2020,0.12665041319697307
+188,China University of Geosciences (CUG),China,75.31,213,2020,0.13488269005477632
+189,Radboud University Nijmegen (RU),Netherlands,75.29,497,2020,0.314726276794478
+190,University of Bern (UniBE),Switzerland,75.28,340,2020,0.21530570243485417
+191,Goethe University Frankfurt (GU),Germany,75.26,291,2020,0.1842763512015958
+192,Chongqing University (CQU),China,74.92,171,2020,0.10828610328341196
+193,The University of Sydney (USYD),Australia,74.72,376,2020,0.23810277681030934
+194,Korea University,South Korea,74.56,316,2020,0.20010765285121743
+195,University of Vienna,Austria,74.22,299,2020,0.18934236772947471
+196,Iowa State University,United States of America (USA),74.04,230,2020,0.145647975176519
+197,The University of Warwick (Warwick),United Kingdom (UK),74.0,333,2020,0.2108729379729601
+198,University of Glasgow,United Kingdom (UK),73.87,412,2020,0.2608998511857645
+199,Sungkyunkwan University (SKKU),South Korea,73.37,280,2020,0.17731057847576226
+200,"University of California, Santa Cruz (UCSC)",United States of America (USA),72.62,340,2020,0.21530570243485417
+201,Shandong Normal University (SDNU),China,72.58,141,2020,0.08928854130386601
+202,Florida State University (FSU),United States of America (USA),71.47,394,2020,0.24950131399803693
+203,University of Waterloo,Canada,71.36,184,2020,0.11651838014121521
+204,University of Cincinnati (UC),United States of America (USA),71.2,250,2020,0.15831301649621632
+205,ShanghaiTech University,China,70.41,280,2020,0.17731057847576226
+206,University of Lausanne (UNIL),Switzerland,70.08,241,2020,0.15261374790235255
+207,University of Regensburg (UR),Germany,69.98,174,2020,0.11018585948136655
+208,Autonomous University of Madrid (UAM),Spain,69.83,387,2020,0.24506854953614288
+209,Carnegie Mellon University (CMU),United States of America (USA),68.89,267,2020,0.16907830161795903
+210,Humboldt University of Berlin (HU Berlin),Germany,68.47,569,2020,0.36032042554538835
+211,Queen Mary University of London (QMUL),United Kingdom (UK),68.32,302,2020,0.19124212392742931
+212,University of Bonn (Uni Bonn),Germany,68.24,331,2020,0.20960643384099042
+213,University of Oregon (UO),United States of America (USA),66.57,194,2020,0.12285090080106387
+214,University of Connecticut (UConn),United States of America (USA),65.83,216,2020,0.1367824462527309
+215,University of Cologne (UoC),Germany,65.52,262,2020,0.1659120412880347
+216,Eindhoven University of Technology (TU/e),Netherlands,65.48,158,2020,0.10005382642560871
+217,The University of Sheffield,United Kingdom (UK),65.23,269,2020,0.17034480574992877
+218,University of Calgary (U of C),Canada,64.79,259,2020,0.16401228509008012
+219,Chalmers University of Technology (Chalmers),Sweden,64.72,201,2020,0.12728366526295792
+220,University of Delaware (UD),United States of America (USA),64.15,177,2020,0.11208561567932115
+221,University of Science and Technology Beijing (USTB),China,64.11,167,2020,0.10575309501947251
+222,The University of Georgia (UGA),United States of America (USA),63.8,189,2020,0.11968464047113954
+223,The University of Nottingham (UoN),United Kingdom (UK),63.62,233,2020,0.1475477313744736
+224,Technische Universität Berlin (TU Berlin),Germany,63.47,210,2020,0.13298293385682172
+225,University of Helsinki,Finland,63.27,386,2020,0.24443529747015796
+226,The University of Iowa (UI),United States of America (USA),63.21,315,2020,0.19947440078523257
+227,Case Western Reserve University (CWRU),United States of America (USA),62.7,211,2020,0.13361618592280655
+228,University of Exeter,United Kingdom (UK),62.04,243,2020,0.15388025203432226
+229,University of Liverpool,United Kingdom (UK),61.53,363,2020,0.22987049995250608
+230,University of Notre Dame (ND),United States of America (USA),60.75,224,2020,0.1418484627806098
+231,University of Houston (UH),United States of America (USA),60.6,219,2020,0.1386822024506855
+232,University of Paris-Sud (UPSud),France,60.58,665,2020,0.4211126238799354
+233,Fuzhou University (FZU),China,60.23,122,2020,0.07725675205015357
+234,KTH Royal Institute of Technology,Sweden,60.04,408,2020,0.25836684292182505
+235,University of the Basque Country (UPV/EHU),Spain,60.0,301,2020,0.19060887186144446
+236,University of Birmingham (UB),United Kingdom (UK),59.82,340,2020,0.21530570243485417
+237,Shaanxi Normal University (SNNU),China,59.74,119,2020,0.07535699585219897
+238,Ruhr University Bochum (RUB),Germany,59.36,213,2020,0.13488269005477632
+239,The City University of New York (CUNY),United States of America (USA),59.09,204,2020,0.12918342146091252
+240,Zhejiang University of Technology (ZJUT),China,58.24,134,2020,0.08485577684197194
+241,The Hong Kong Polytechnic University (PolyU),China,58.02,220,2020,0.13931545451667035
+242,University of Montreal (UdeM),Canada,57.08,363,2020,0.22987049995250608
+243,University of São Paulo (USP),Brazil,56.51,293,2020,0.18554285533356552
+244,University of Ottawa (uOttawa),Canada,56.21,181,2020,0.11461862394326061
+245,Northwest University (NWU),China,55.76,117,2020,0.07409049172022923
+246,Chinese Academy of Medical Sciences & Peking Union Medical College (CAMS & PUMC),China,55.58,198,2020,0.12538390906500332
+247,The University of Tennessee at Knoxville (UTK),United States of America (USA),55.12,302,2020,0.19124212392742931
+248,University of Valencia (UV),Spain,55.05,323,2020,0.20454041731311148
+249,"University at Buffalo, The State University of New York (SUNY UB)",United States of America (USA),54.78,153,2020,0.09688756609568439
+250,Shanghai University (SHU),China,54.63,139,2020,0.08802203717189627
+251,Tufts University,United States of America (USA),54.46,249,2020,0.15767976443023146
+252,University of Hawai'i at Manoa (UH Mānoa),United States of America (USA),54.23,312,2020,0.19757464458727797
+253,University of Massachusetts Medical School (UMass Medical School),United States of America (USA),54.17,227,2020,0.1437482189785644
+254,University of Strasbourg,France,54.14,407,2020,0.2577335908558402
+255,Homi Bhabha National Institute (HBNI),India,53.48,202,2020,0.12791691732894278
+256,Washington State University (WSU),United States of America (USA),52.35,175,2020,0.11081911154735144
+257,University of Electronic Science and Technology of China (UESTC),China,52.35,154,2020,0.09752081816166924
+258,Indian Institute of Technology Bombay (IIT Bombay),India,52.05,124,2020,0.07852325618212329
+259,University of Miami (UM),United States of America (USA),51.12,180,2020,0.11398537187727575
+260,Oregon State University,United States of America (USA),51.11,190,2020,0.12031789253712441
+261,Wageningen University & Research (WUR),Netherlands,50.79,200,2020,0.12665041319697307
+262,Philipps University of Marburg (Uni Marburg),Germany,50.64,143,2020,0.09055504543583573
+263,University of Tsukuba,Japan,50.62,239,2020,0.15134724377038278
+264,Keio University,Japan,49.69,142,2020,0.08992179336985087
+265,Oregon Health and Science University (OHSU),United States of America (USA),49.6,173,2020,0.10955260741538168
+266,National Autonomous University of Mexico (UNAM),Mexico,49.59,206,2020,0.13044992559288224
+267,University of Toulouse,France,49.43,392,2020,0.24823480986606716
+268,University of St Andrews,United Kingdom (UK),49.22,199,2020,0.12601716113098818
+269,VU Amsterdam,Netherlands,49.21,456,2020,0.2887629420890986
+270,Northwestern Polytechnical University (NPU),China,48.84,181,2020,0.11461862394326061
+271,The University of Dublin,Ireland,48.79,173,2020,0.10955260741538168
+272,Northeast Normal University (NENU),China,48.71,91,2020,0.05762593800462274
+273,University of Kiel (CAU),Germany,48.43,195,2020,0.12348415286704874
+274,University of Gothenburg (GU),Sweden,48.33,208,2020,0.13171642972485198
+275,Central China Normal University (CCNU),China,48.31,158,2020,0.10005382642560871
+276,Henan University (HENU),China,48.27,117,2020,0.07409049172022923
+277,Lomonosov Moscow State University (MSU),Russia,48.06,338,2020,0.21403919830288448
+278,Vienna University of Technology (TU Wien),Austria,47.1,206,2020,0.13044992559288224
+279,University of Padova (UNIPD),Italy,47.02,355,2020,0.22480448342462717
+280,Donghua University (DHU),China,46.96,106,2020,0.06712471899439572
+281,Friedrich Schiller University Jena (FSU),Germany,46.87,234,2020,0.14818098344045846
+282,National Tsing Hua University (NTHU),Taiwan,46.83,193,2020,0.12221764873507898
+283,University of Lyon,France,46.74,456,2020,0.2887629420890986
+284,Aix-Marseille University (AMU),France,46.7,421,2020,0.2665991197796283
+285,University of Konstanz,Germany,46.7,108,2020,0.06839122312636545
+286,Cardiff University,United Kingdom (UK),46.53,192,2020,0.12158439666909414
+287,Dartmouth College,United States of America (USA),46.48,166,2020,0.10511984295348764
+288,University of Montpellier,France,46.41,394,2020,0.24950131399803693
+289,University of Colorado Anschutz Medical Campus (CU Anschutz),United States of America (USA),46.24,166,2020,0.10511984295348764
+290,University of Bayreuth (UBT),Germany,46.05,118,2020,0.0747237437862141
+291,Nanjing University of Science and Technology (NUST),China,45.98,107,2020,0.06775797106038058
+292,Guangdong University of Technology (GDUT),China,45.77,127,2020,0.08042301238007789
+293,The University of Kansas (KU),United States of America (USA),45.77,218,2020,0.13804895038470064
+294,China Agricultural University (CAU),China,44.96,114,2020,0.07219073552227465
+295,Ben-Gurion University of the Negev (BGU),Israel,44.48,144,2020,0.0911882975018206
+296,The University of Texas at Dallas (UT Dallas),United States of America (USA),44.21,159,2020,0.10068707849159358
+297,Newcastle University,United Kingdom (UK),43.91,196,2020,0.12411740493303358
+298,Nanjing Normal University (NNU),China,43.88,150,2020,0.0949878098977298
+299,Western University (UWO),Canada,43.79,122,2020,0.07725675205015357
+300,Anhui University (AHU),China,43.59,116,2020,0.07345723965424437
+301,Wuhan University of Technology (WUT),China,43.59,101,2020,0.06395845866447139
+302,The University of Western Australia (UWA),Australia,43.56,244,2020,0.15451350410030715
+303,Norwegian University of Science and Technology (NTNU),Norway,43.23,171,2020,0.10828610328341196
+304,Leibniz University Hannover (LUH),Germany,43.17,118,2020,0.0747237437862141
+305,Hanyang University (HYU),South Korea,43.08,187,2020,0.11841813633916981
+306,University of South Florida (USF),United States of America (USA),42.96,156,2020,0.09878732229363898
+307,Charles University (CU),Czech Republic,42.87,301,2020,0.19060887186144446
+308,Catholic University of Louvain (UCLouvain),Belgium,42.63,193,2020,0.12221764873507898
+309,Complutense University of Madrid (UCM),Spain,42.12,223,2020,0.14121521071462495
+310,Indian Institute of Science Education and Research Kolkata (IISER Kolkata),India,42.05,63,2020,0.03989488015704651
+311,McMaster University,Canada,41.81,113,2020,0.07155748345628977
+312,Okinawa Institute of Science and Technology Graduate University (OIST),Japan,41.79,107,2020,0.06775797106038058
+313,University of Nebraska-Lincoln (UNL),United States of America (USA),41.75,195,2020,0.12348415286704874
+314,University of Lisbon (ULISBOA),Portugal,41.72,240,2020,0.15198049583636766
+315,The University of Oklahoma (OU),United States of America (USA),41.66,233,2020,0.1475477313744736
+316,The University of Adelaide (Adelaide Uni),Australia,41.21,236,2020,0.1494474875724282
+317,South China Normal University (SCNU),China,40.92,158,2020,0.10005382642560871
+318,Nanchang University (NCU),China,40.58,94,2020,0.059525694202577334
+319,Shanxi University (SXU),China,40.48,155,2020,0.09815407022765411
+320,China Pharmaceutical University (CPU),China,40.31,72,2020,0.0455941487509103
+321,University of Warsaw (UW),Poland,39.94,202,2020,0.12791691732894278
+322,Northeastern University (NEU),United States of America (USA),39.9,185,2020,0.11715163220720008
+323,Yangzhou University (YZU),China,39.78,96,2020,0.06079219833454707
+324,Jiangnan University,China,39.67,78,2020,0.04939366114681949
+325,Heinrich Heine University Düsseldorf (HHU),Germany,39.6,152,2020,0.09625431402969953
+326,University of Missouri (Mizzou),United States of America (USA),38.66,144,2020,0.0911882975018206
+327,University of Duisburg-Essen (UDE),Germany,38.65,140,2020,0.08865528923788113
+328,Aalto University,Finland,38.49,232,2020,0.14691447930848875
+329,Albert Einstein College of Medicine (Einstein),United States of America (USA),38.17,141,2020,0.08928854130386601
+330,University of Florence (UNIFI),Italy,38.16,233,2020,0.1475477313744736
+331,Brandeis University,United States of America (USA),38.14,126,2020,0.07978976031409302
+332,Grenoble Alpes University (UGA),France,38.03,532,2020,0.33689009910394835
+333,University of Bordeaux,France,37.52,273,2020,0.1728778140138682
+334,University of Stuttgart,Germany,37.49,129,2020,0.08168951651204762
+335,Louisiana State University (LSU),United States of America (USA),37.45,158,2020,0.10005382642560871
+336,Jagiellonian University (UJ),Poland,37.39,167,2020,0.10575309501947251
+337,Nanjing University of Information Science and Technology (NUIST),China,37.32,165,2020,0.10448659088750276
+338,Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR),India,37.3,60,2020,0.037995123959091916
+339,Linköping University (LiU),Sweden,36.78,113,2020,0.07155748345628977
+340,University of Wollongong (UOW),Australia,36.72,145,2020,0.09182154956780547
+341,University of Bath,United Kingdom (UK),36.68,126,2020,0.07978976031409302
+342,The University of New Mexico (UNM),United States of America (USA),36.68,186,2020,0.11778488427318494
+343,Kanazawa University (KU),Japan,36.63,102,2020,0.06459171073045626
+344,University of York,United Kingdom (UK),36.61,176,2020,0.11145236361333628
+345,University of Santiago de Compostela (USC),Spain,36.61,180,2020,0.11398537187727575
+346,Qingdao University of Science and Technology (QUST),China,36.56,79,2020,0.05002691321280436
+347,Université Libre de Bruxelles (ULB),Belgium,35.98,213,2020,0.13488269005477632
+348,Ocean University of China (OUC),China,35.85,203,2020,0.12855016939492767
+349,Northwest A&F University (NWAFU),China,35.67,70,2020,0.044327644618940565
+350,Northeastern University (NEU),China,35.64,69,2020,0.04369439255295571
+351,National Chiao Tung University (NCTU),Taiwan,35.52,112,2020,0.0709242313903049
+352,University of Kentucky (UK),United States of America (USA),35.5,134,2020,0.08485577684197194
+353,Sapienza University of Rome,Italy,35.19,331,2020,0.20960643384099042
+354,Okayama University,Japan,35.01,120,2020,0.07599024791818383
+355,Institute of Science and Technology Austria (IST Austria),Austria,34.76,82,2020,0.051926669410758956
+356,"University of Maryland, Baltimore (UMB)",United States of America (USA),34.21,118,2020,0.0747237437862141
+357,Ulm University,Germany,34.17,152,2020,0.09625431402969953
+358,University of Bremen (Uni Bremen),Germany,34.16,128,2020,0.08105626444606276
+359,Leipzig University,Germany,34.1,182,2020,0.11525187600924548
+360,Anhui Normal University (AHNU),China,33.56,60,2020,0.037995123959091916
+361,Indian Institute of Technology Kanpur (IIT Kanpur),India,33.36,68,2020,0.04306114048697084
+362,Henan Normal University,China,33.3,91,2020,0.05762593800462274
+363,Kobe University,Japan,33.23,145,2020,0.09182154956780547
+364,Clemson University,United States of America (USA),33.01,78,2020,0.04939366114681949
+365,Hiroshima University (HU),Japan,32.61,120,2020,0.07599024791818383
+366,University of Bologna (UNIBO),Italy,32.57,307,2020,0.19440838425735366
+367,University of Milan (UNIMI),Italy,32.49,265,2020,0.1678117974859893
+368,Ningbo University (NBU),China,32.49,82,2020,0.051926669410758956
+369,Curtin University,Australia,32.48,152,2020,0.09625431402969953
+370,University of Innsbruck (LFU),Austria,32.41,147,2020,0.0930880536997752
+371,University of Technology Sydney (UTS),Australia,32.15,105,2020,0.06649146692841086
+372,Hunan Normal University (HUNNU),China,31.87,87,2020,0.05509292974068328
+373,The University of Texas Health Science Center at Houston (UTHealth),United States of America (USA),31.87,174,2020,0.11018585948136655
+374,The University of Auckland,New Zealand,31.76,189,2020,0.11968464047113954
+375,University of Twente (UTwente),Netherlands,31.53,92,2020,0.058259190070607605
+376,Gwangju Institute of Science and Technology (GIST),South Korea,31.41,72,2020,0.0455941487509103
+377,Lancaster University,United Kingdom (UK),31.12,177,2020,0.11208561567932115
+378,University of Antwerp (UA),Belgium,31.08,182,2020,0.11525187600924548
+379,Waseda University,Japan,31.07,104,2020,0.06585821486242599
+380,University of Victoria (UVic),Canada,30.86,191,2020,0.12095114460310927
+381,Bar-Ilan University (BIU),Israel,30.78,94,2020,0.059525694202577334
+382,Technical University of Darmstadt (TU Darmstadt),Germany,30.64,131,2020,0.08295602064401734
+383,Tianjin University of Technology (TJUT),China,30.57,62,2020,0.039261628091061644
+384,TU Dortmund University,Germany,30.5,157,2020,0.09942057435962386
+385,Kyung Hee University (KHU),South Korea,30.48,158,2020,0.10005382642560871
+386,The University of Alabama at Birmingham (UAB),United States of America (USA),30.43,147,2020,0.0930880536997752
+387,Beijing University of Technology (BJUT),China,30.41,114,2020,0.07219073552227465
+388,Hefei University of Technology (HFUT),China,30.1,67,2020,0.04242788842098597
+389,Indian Institute of Science Education and Research Pune (IISER Pune),India,30.04,101,2020,0.06395845866447139
+390,University of Central Florida (UCF),United States of America (USA),30.0,74,2020,0.04686065288288003
+391,Yunnan University (YNU),China,29.94,76,2020,0.048127157014849764
+392,Wayne State University,United States of America (USA),29.66,159,2020,0.10068707849159358
+393,Queen's University,Canada,29.5,171,2020,0.10828610328341196
+394,Huazhong Agricultural University (HZAU),China,29.47,79,2020,0.05002691321280436
+395,University of Sussex,United Kingdom (UK),29.22,129,2020,0.08168951651204762
+396,Chiba University,Japan,29.1,106,2020,0.06712471899439572
+397,Laval University (UL),Canada,29.09,141,2020,0.08928854130386601
+398,University of Milano-Bicocca (UNIMIB),Italy,29.07,218,2020,0.13804895038470064
+399,Macquarie University,Australia,29.01,142,2020,0.08992179336985087
+400,Royal Melbourne Institute of Technology (RMIT University),Australia,28.55,113,2020,0.07155748345628977
+401,Temple University,United States of America (USA),28.46,110,2020,0.06965772725833518
+402,Wenzhou University (WZU),China,28.38,65,2020,0.041161384289016244
+403,University of Bergen (UIB),Norway,28.35,246,2020,0.15578000823227686
+404,West Virginia University (WVU),United States of America (USA),28.32,87,2020,0.05509292974068328
+405,Boston College (BC),United States of America (USA),28.23,76,2020,0.048127157014849764
+406,University of Naples Federico II (UNINA),Italy,28.18,276,2020,0.17477757021182283
+407,Indian Institute of Technology Guwahati (IIT Guwahati),India,28.11,48,2020,0.030396099167273535
+408,Queensland University of Technology (QUT),Australia,28.1,125,2020,0.07915650824810816
+409,Institute for Advanced Study (IAS),United States of America (USA),28.08,80,2020,0.05066016527878922
+410,Tulane University,United States of America (USA),28.0,85,2020,0.05382642560871354
+411,Hebei University (HBU),China,27.97,62,2020,0.039261628091061644
+412,Bielefeld University,Germany,27.89,66,2020,0.04179463635500111
+413,University of Otago,New Zealand,27.59,138,2020,0.08738878510591142
+414,Simon Fraser University (SFU),Canada,27.26,170,2020,0.10765285121742708
+415,Indian Institute of Technology Madras (IIT Madras),India,27.06,133,2020,0.08422252477598709
+416,Southern Medical University (SMU),China,26.93,90,2020,0.05699268593863788
+417,Saarland University (Saar-Uni),Germany,26.86,93,2020,0.05889244213659247
+418,University of South Carolina - Columbia (SC),United States of America (USA),26.74,82,2020,0.051926669410758956
+419,National Institute of Applied Sciences (INSA),France,26.65,265,2020,0.1678117974859893
+420,Qingdao University (QU),China,26.39,78,2020,0.04939366114681949
+421,Queen's University Belfast (QUB),United Kingdom (UK),26.3,104,2020,0.06585821486242599
+422,Hubei University (HUBU),China,26.24,61,2020,0.03862837602507679
+423,University of Jinan (UJN),China,26.2,62,2020,0.039261628091061644
+424,Giessen University (JLU),Germany,26.08,178,2020,0.11271886774530601
+425,Erasmus University Rotterdam (EUR),Netherlands,26.0,162,2020,0.10258683468954818
+426,Umeå University (UMU),Sweden,25.78,127,2020,0.08042301238007789
+427,Martin Luther University Halle-Wittenberg (MLU),Germany,25.74,134,2020,0.08485577684197194
+428,Jiangsu Normal University (JSNU),China,25.67,51,2020,0.03229585536522813
+429,"University of Nevada, Reno (UNR)",United States of America (USA),25.66,76,2020,0.048127157014849764
+430,University of Strathclyde,United Kingdom (UK),25.61,102,2020,0.06459171073045626
+431,University of Potsdam,Germany,25.51,154,2020,0.09752081816166924
+432,Drexel University,United States of America (USA),25.46,106,2020,0.06712471899439572
+433,Hong Kong Baptist University (HKBU),China,25.37,101,2020,0.06395845866447139
+434,Pusan National University (PNU),South Korea,25.3,101,2020,0.06395845866447139
+435,Syracuse University,United States of America (USA),25.14,103,2020,0.06522496279644112
+436,Autonomous University of Barcelona (UAB),Spain,25.01,259,2020,0.16401228509008012
+437,Nanjing Medical University (NJMU),China,25.01,103,2020,0.06522496279644112
+438,Changzhou University (CZU),China,24.97,45,2020,0.02849634296931894
+439,University of Oviedo (UniOvi),Spain,24.87,164,2020,0.10385333882151791
+440,École Normale Supérieure (ENS Paris),France,24.65,329,2020,0.20833992970902068
+441,Nanjing Agricultural University (NAU),China,24.59,72,2020,0.0455941487509103
+442,University of Jyväskylä,Finland,24.56,188,2020,0.11905138840515467
+443,University of Oldenburg,Germany,24.55,64,2020,0.04052813222303138
+444,China University of Petroleum (CUP),China,24.45,51,2020,0.03229585536522813
+445,National Cheng Kung University (NCKU),Taiwan,24.01,83,2020,0.05255992147674382
+446,Scuola Internazionale Superiore di Studi Avanzati (SISSA),Italy,23.77,96,2020,0.06079219833454707
+447,University of Pisa (UNIPI),Italy,23.73,250,2020,0.15831301649621632
+448,Army Medical University,China,23.42,133,2020,0.08422252477598709
+449,University of Turin (UNITO),Italy,23.33,251,2020,0.15894626856220118
+450,University of Buenos Aires (UBA),Argentina,23.24,142,2020,0.08992179336985087
+451,University of Leicester,United Kingdom (UK),23.22,111,2020,0.07029097932432005
+452,Guangzhou University (GU),China,23.22,68,2020,0.04306114048697084
+453,Ewha Womans University (Ewha),South Korea,23.13,80,2020,0.05066016527878922
+454,Rensselaer Polytechnic Institute (RPI),United States of America (USA),23.12,70,2020,0.044327644618940565
+455,University of Liège (ULg),Belgium,23.03,104,2020,0.06585821486242599
+456,Dalhousie University,Canada,23.02,100,2020,0.06332520659848653
+457,Saint Petersburg State University (SPbU),Russia,23.01,101,2020,0.06395845866447139
+458,Texas Tech University (TTU),United States of America (USA),23.01,148,2020,0.09372130576576006
+459,Griffith University,Australia,23.0,85,2020,0.05382642560871354
+460,University of Saskatchewan (U of S),Canada,22.85,105,2020,0.06649146692841086
+461,Indian Institute of Technology Kharagpur (IIT Kharagpur),India,22.8,36,2020,0.02279707437545515
+462,Hohai University (HHU),China,22.71,56,2020,0.03546211569515245
+463,University of Southern Denmark (SDU),Denmark,22.47,123,2020,0.07789000411613843
+464,Swansea University,United Kingdom (UK),22.46,84,2020,0.05319317354272868
+465,Moscow Institute of Physics and Technology - State University (MIPT),Russia,22.19,196,2020,0.12411740493303358
+466,"China University of Geosciences, Beijing (CUGB)",China,22.16,63,2020,0.03989488015704651
+467,Chung-Ang University (CAU),South Korea,22.13,56,2020,0.03546211569515245
+468,Guangzhou Medical University (GMU),China,22.09,106,2020,0.06712471899439572
+469,Tokyo Medical and Dental University (TMDU),Japan,22.04,68,2020,0.04306114048697084
+470,University of East Anglia (UEA),United Kingdom (UK),22.04,109,2020,0.06902447519235032
+471,Skolkovo Institute of Science and Technology (Skoltech),Russia,22.0,97,2020,0.061425450400531934
+472,University of Texas Medical Branch (UTMB),United States of America (USA),21.95,66,2020,0.04179463635500111
+473,The George Washington University (GW),United States of America (USA),21.87,97,2020,0.061425450400531934
+474,University College Dublin (UCD),Ireland,21.84,176,2020,0.11145236361333628
+475,Tokyo University of Science (TUS),Japan,21.79,68,2020,0.04306114048697084
+476,Auburn University,United States of America (USA),21.72,88,2020,0.05572618180666814
+477,Masaryk University (MU),Czech Republic,21.64,118,2020,0.0747237437862141
+478,Hangzhou Normal University (HZNU),China,21.54,73,2020,0.046227400816895164
+479,University of Fribourg (UNIFR),Switzerland,21.54,95,2020,0.060158946268562205
+480,University of Iceland,Iceland,21.5,88,2020,0.05572618180666814
+481,Zhejiang Sci-Tech University (ZSTU),China,21.4,46,2020,0.029129595035303803
+482,University of Granada (UGR),Spain,21.34,137,2020,0.08675553303992654
+483,University of Dundee,United Kingdom (UK),21.31,103,2020,0.06522496279644112
+484,Colorado School of Mines,United States of America (USA),21.2,80,2020,0.05066016527878922
+485,Jiangxi Normal University (JXNU),China,21.12,53,2020,0.03356235949719786
+486,ITMO National Research University (ITMO University),Russia,21.1,63,2020,0.03989488015704651
+487,The University of Texas at San Antonio (UTSA),United States of America (USA),21.01,65,2020,0.041161384289016244
+488,University of Tasmania (UTAS),Australia,20.96,123,2020,0.07789000411613843
+489,The University of Texas Health Science Center at San Antonio (UT Health San Antonio),United States of America (USA),20.95,68,2020,0.04306114048697084
+490,Huaqiao University (HQU),China,20.91,35,2020,0.022163822309470282
+491,University of Lorraine (UL),France,20.79,126,2020,0.07978976031409302
+492,University of Ljubljana,Slovenia,20.78,134,2020,0.08485577684197194
+493,Indian Institute of Science Education and Research Bhopal (IISER Bhopal),India,20.55,29,2020,0.018364309913561094
+494,University of Macau (UM),China,20.29,83,2020,0.05255992147674382
+495,University of Reading,United Kingdom (UK),20.23,95,2020,0.060158946268562205
+496,University of Turku (UTU),Finland,20.13,98,2020,0.06205870246651679
+497,Swedish University of Agricultural Sciences (SLU),Sweden,20.08,103,2020,0.06522496279644112
+498,Utah State University (USU),United States of America (USA),20.04,92,2020,0.058259190070607605
+499,Polytechnic University of Milan,Italy,19.95,97,2020,0.061425450400531934
+500,Renmin University of China (RUC),China,19.91,63,2020,0.03989488015704651

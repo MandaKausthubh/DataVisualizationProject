@@ -1,0 +1,57 @@
+;;1. Growth Story of China, increased impact of Universities in the EU:
+	(Images : CWUR_top_500_bubble_2012..2022, 
+		  CWUR_China_vs_EU_in_top_500, 
+		  CWUR_G20_count..top_500.
+		  Natureindex_pubshare_2016..2022).
+	China had no university in top 500 world rank before 2014. In 2014 it makes its entry and its count of universities in top 500 increases steadily.
+	One of the factors is increased amount of research publications.
+	While China grew steadily, growth story of universities in EU shows a rather stagnant trend. One may conclude that universities in EU have assumed a clumsy attitude but this is proven wrong if we see the Impact EU universities have had (now plot 2)
+2. As per Webometrics,Excellence Rank: Focuses on the quality of research output (measured by papers published in top journals).
+		      Impact Rank: Reflects the university's online influence based on external backlinks to its website.
+		      Openness Rank: Measures the accessibility and transparency of academic content available on the university's website.
+	(Images: Webometrics_Impact_2012..2023. Red dots on EU increased significantly.)
+	
+	Increased impact corresponds to increased excellence (Images : Webometrics_excellence_vs_impact)
+	
+	Excellence and Openness are proportional (Images :Webometrics_openness_vs_excellence). This implies universities producing quality research tend to be more open towards sharing their resources and thus helping in dissemination and generation of knowledge.
+
+	Finally, we can conclude that impact, openness and excellence go hand in hand. (Images: Webometrics_correlation_between_all_3_over_years)
+
+	Since we have begun talking about research, (now plot 3)
+3. Factors affecting research: 
+	(Images : Times_research_vs_teaching_2017..2023. Clearly we can see linear relationship between teaching and research which implies that better faculty and methodologies of teaching are proven to promote research among the student community and other parties in academia)
+
+	(Images : Natureindex_correlation_between_rank_and_pubcount. Positive correlation between them implies publication count is a significant contributor to Rank.)
+
+	(Images : Natureindex_univ_share_by_country, 
+		  Natureindex_pubcount_India_2016..2022. 
+
+	Countries with more publications tend to have higher ranks. 
+	
+	Speaking of 2 Asian giants Indi and China. While China's share in research publication increased manifold, India wasn't able to see such drastic changes. When broken down , its discovered that top institutions that contribute to publication count in India have remained more or less the 
+	same, indicating a silent presence of inactivity. Major Indian universities that contribute: IISc, IIT-M, IIT-B, HBNI).
+	
+	In todays age, the 'goodness' of a university has more to it than just research, faculty and education. (now plot 4)
+
+4. Sustainability.
+	(Images :
+
+	GreenMetrics_Scope_of_improvemnet_of_SAARC ( for same total score, SAARC countries score less in terms of waste management as compared to their western counterparts. Scope of improvement.)
+
+	GreenMetrics_Scope_of_improvement_for_African_countries_in_eco_Transportation ( Universities in the African continent collectively and largely score below other countries in terms of Transport management. Scope for improvement).
+
+	GreenMetrics_G20_developing_countries_in_terms_of_Waste_Management_and_rank (developing countries often face tradeoffs and challenges in achieving sustainability. This plot of G20 developing countries shows that China fared the best while South Africa performed minimal)
+
+5. Some myths, mysteries and truths:
+	
+	(Images :CWUR_G20_employability_&_rank)
+
+	During the COVID-19, it was well assume that employability of fresh graduates would take a hit wrt universities. However, CWUR data suggests that no such drastic change sin employability occurred, at least relative to universities, if not absolute. 
+
+	The average scores of universities in G20 shows a sudden spike in 2017-2018. There was no significant change in the evaluation methodology of CWUR, nor any major policy changes that G20 took collectively. It can be a topic for study as to what changes, strategies did the universities adopt
+	all together or if it is just a human error.
+
+	(Images: Times_footfall_of_intl_students)
+
+	A popular belief among people suggests that students migrate for better educational opportunities, notwithstanding the struggle. The above plot proves it right as we can see that the footfall of international students is higher in countries where average score of universities is higher.
+
