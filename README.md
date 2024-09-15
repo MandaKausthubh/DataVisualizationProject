@@ -6,7 +6,7 @@ Preprocessing and Codes.
 
 Kushal Janamani: Webnometric_cleaner.ipynb
 Manda Kausthubh: DataPreprocessing.ipynb
-Jinesh Pagaria: DV1/ (folder with Tabluea)
+Jinesh Pagaria: DV1/Python_codes (folder with Tabluea)
 
 ## Requirements:
 
